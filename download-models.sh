@@ -1,15 +1,16 @@
 #!/bin/bash
 # =============================================================================
-# MODEL DOWNLOADER - Curated Top Models for S-Tier Character Creation
+# MODEL DOWNLOADER v2.0.0 - Curated Top Models for S-Tier Character Creation
 # =============================================================================
 # Purpose: Download essential models for ComfyUI character generation
 # Models: Carefully curated top choices only
 # Time: 5-20 minutes depending on selections and network
-# Version: 1.0.0
+# Features: Idempotent, robust retry logic, clean progress indication
+# Version: 2.0.0
 # License: MIT
 # =============================================================================
 
-set -e
+set -euo pipefail
 
 # Configuration
 readonly WORKSPACE="/workspace"
@@ -50,35 +51,45 @@ download_with_progress() {
     local url="$1"
     local output="$2"
     local desc="$3"
-    
+    local temp_output="${output}.tmp"
+    local max_retries=3
+    local retry_count=0
+
     echo ""
     log "Downloading: $desc"
     echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-    
-    # Download with clean progress - using dot:giga for cleaner output
-    wget --progress=dot:giga -O "$output" "$url" 2>&1 | \
-        grep --line-buffered "%" | \
-        grep -oE '[0-9]+%' | \
-        tail -1 | \
-        while read -r percent; do
-            echo -ne "\r${CYAN}  Progress: ${GREEN}${percent}${NC}     "
-        done
-    
-    local exit_code=${PIPESTATUS[0]}
-    
-    if [ $exit_code -eq 0 ]; then
-        echo -ne "\r${GREEN}  Progress: 100% - Complete!${NC}          \n"
-        success "Downloaded: $desc"
-        echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-        echo ""
-        return 0
-    else
-        echo -ne "\r${RED}  Download failed${NC}                    \n"
-        error "Failed to download: $desc"
-        echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-        echo ""
-        return 1
-    fi
+
+    while [ $retry_count -lt $max_retries ]; do
+        if [ $retry_count -gt 0 ]; then
+            log "Retry attempt $retry_count/$max_retries..."
+            sleep 2
+        fi
+
+        # Download with progress bar
+        if wget --progress=bar:force --show-progress -O "$temp_output" "$url" 2>&1 | \
+            grep --line-buffered -oP '\d+%' | \
+            while read -r percent; do
+                echo -ne "\r${CYAN}  Progress: ${GREEN}${percent}${NC}     "
+            done
+        then
+            echo -ne "\r${GREEN}  Progress: 100% - Complete!${NC}          \n"
+            mv "$temp_output" "$output"
+            success "Downloaded: $desc"
+            echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+            echo ""
+            return 0
+        fi
+
+        retry_count=$((retry_count + 1))
+        rm -f "$temp_output"
+    done
+
+    # All retries failed
+    echo -ne "\r${RED}  Download failed after $max_retries attempts${NC}     \n"
+    error "Failed to download: $desc"
+    echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    echo ""
+    return 1
 }
 
 # Smart download - checks if file exists first
@@ -106,8 +117,9 @@ clear
 cat << "EOF"
 ╔═══════════════════════════════════════════════════════════════════════╗
 ║                                                                       ║
-║              MODEL DOWNLOADER                                         ║
+║              MODEL DOWNLOADER v2.0.0                                  ║
 ║          Curated Top Models for Character Creation                    ║
+║          Idempotent • Retry Logic • Professional Grade                ║
 ║                                                                       ║
 ╚═══════════════════════════════════════════════════════════════════════╝
 EOF
