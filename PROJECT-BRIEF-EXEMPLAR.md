@@ -1,56 +1,56 @@
-# Project Brief - Visionix AI
+# Project Brief - Dreamforge
 
 **Purpose:** Complete project context for CTO Orion (Claude Code)
-**Status:** Ready to Execute
+**Status:** Ready to Execute - 100% Finalized
 **Last Updated:** November 14, 2025
-**Version:** 2.0 (Investor-Grade Exemplar)
+**Version:** 3.0 (B2C Investor-Grade Final)
 
 ---
 
 ## 🎯 Executive Summary
 
-**Product Name:** Visionix AI
+**Product Name:** Dreamforge
 
 **One-Line Pitch:**
-"Figma for AI image generation - professional designers create, iterate, and collaborate on AI-generated visuals in real-time"
+"The creative playground for AI art - where anyone can generate, organize, and perfect stunning visuals in minutes, not hours"
 
 **The Problem:**
-Current AI image generators (Leonardo.ai, Midjourney) are optimized for single image creation. Professional designers working on client projects need to:
-- Generate dozens of variations quickly
-- Maintain consistent style across a project
-- Collaborate with teammates in real-time
-- Organize generations into projects
-- Present iterations to clients
+AI image generation tools (Midjourney, Leonardo.ai) force users into a chaotic, feed-based experience. Creators generate dozens of variations trying to get the perfect image, but:
+- Everything dumped in one endless chronological feed
+- Can't organize by project or theme
+- Lost good variations, can't find them again
+- No way to compare variations side-by-side visually
+- Download/upload manually to organize locally
+- Share via screenshots (unprofessional)
 
-Existing tools force designers into a slow, disorganized workflow: generate one image, download, organize locally, repeat. No version control, no collaboration, no project management.
-
-**Pain Intensity:** 8/10 - Designers spend 3-5 hours weekly on manual organization. Agencies lose billable hours to workflow friction.
+**Pain Intensity:** 7/10 - Creators spend 2-3 hours weekly searching through feeds, reorganizing downloads, and recreating lost variations.
 
 **The Solution:**
-Visionix AI is the first AI image generator built for professional workflows:
-- **Canvas workspace** - Arrange generations spatially, not chronologically
-- **Project organization** - Group work by client/project, not dumped in one feed
-- **Real-time collaboration** - Share workspace, comment on generations, iterate together
-- **Style consistency** - Lock style settings across all generations in a project
-- **Version history** - Track all iterations, revert to any version
-- **Client presentation mode** - Share read-only link for client feedback
+Dreamforge reimagines AI image generation with a **spatial canvas** (like Figma meets AI):
+- **Infinite canvas** - Arrange generations spatially, not chronologically
+- **Project organization** - Group work by theme/project, not dumped in one feed
+- **Visual comparison** - Place variations side-by-side, choose the best
+- **Full history** - Never lose a generation, revert to any version
+- **Style consistency** - Lock style settings, generate cohesive sets
+- **Easy sharing** - Share canvas links (not screenshots)
 
 **Why Our Solution is Better:**
-1. **10x faster workflow** - Parallel generation + spatial organization vs linear feed
-2. **Team-ready** - Only AI tool built for collaboration from day 1
-3. **Professional features** - Project management, client sharing, version control
-4. **Same AI quality** - SDXL under the hood, familiar to designers
+1. **10x better organization** - Spatial canvas vs endless scroll
+2. **Never lose work** - Full history, not lost in feed
+3. **Faster iteration** - Compare visually, not mentally
+4. **Beautiful sharing** - Send links, not screenshots
+5. **Same AI quality** - SDXL under the hood, familiar to creators
 
 **Vision (3 years):**
-- **Year 1:** Standard tool for freelance designers (10K users, $500K ARR)
-- **Year 2:** Adopted by design agencies (50K users, $5M ARR)
-- **Year 3:** Enterprise offering for in-house design teams ($20M ARR, Series A)
+- **Year 1:** Go-to tool for content creators (10K users, $2.4M ARR)
+- **Year 2:** Standard for AI art community (50K users, $15M ARR)
+- **Year 3:** Add prosumer/team features (100K users, $36M ARR, Series A)
 
 **Market Opportunity:**
-- TAM: 1.5M professional designers in US alone
-- SAM: 500K using AI tools regularly
-- SOM: 50K designers at agencies/studios (Year 3 target)
-- At $40/user/month: $24M ARR potential in Year 3
+- TAM: 50M+ content creators globally (Instagram, TikTok, YouTube, etc.)
+- SAM: 10M creators using AI tools regularly
+- SOM: 100K creators seeking better organization (Year 3 target)
+- At $30/user/month: $36M ARR potential in Year 3
 
 ---
 
@@ -58,38 +58,40 @@ Visionix AI is the first AI image generator built for professional workflows:
 
 ### About You
 
-**Name:** Michael Chen
+**Name:** Michael Morillo
 
 **Background:**
-- 8 years as Product Designer at design agencies
-- Worked with 50+ brands on visual campaigns
-- Early adopter of AI tools (Midjourney since beta)
-- Experienced the pain firsthand managing 30+ client projects with AI
-- Previously built internal tools for agency workflow
+- 8+ years in creative technology and digital content
+- Early adopter of AI tools (Midjourney, Stable Diffusion since early 2023)
+- Experienced the organizational chaos firsthand with 50+ personal projects
+- Built internal tools to manage AI workflows
+- Active in AI art communities (Discord, Reddit, Twitter)
+- Understand what creators actually want vs what tools provide
 
 **Why You:**
-- **Domain expertise:** I've lived this problem daily for 2 years
-- **User access:** Direct relationships with 100+ designers at top agencies
-- **Unique insight:** I know why designers DON'T use current AI tools for client work
-- **Unfair advantage:** Beta users lined up before launch (20 agencies committed)
+- **Domain expertise:** Lived this problem daily for 2+ years
+- **User access:** Direct relationships with 500+ creators in AI communities
+- **Unique insight:** Know exactly why current tools frustrate creators
+- **Unfair advantage:** Community trust - creators already know your work
+- **Market timing:** AI art exploded, but organization still broken
 
 **Commitment:**
 - Hours per week: 40-50 hours (full-time)
-- Timeline: 5+ years commitment to building category leader
-- Other commitments: None - this is my primary focus
+- Timeline: 5+ years to build category leader
+- Other commitments: None - this is primary focus
 - Runway: Personal savings for 18 months, then raising seed
 
 **Working Style:**
-- Preferred communication: Async (Slack/Linear) for updates, sync calls for big decisions
-- Timezone: PST (San Francisco)
+- Preferred communication: Async (Slack/Linear) for updates, sync for big decisions
+- Timezone: PST (Pacific Standard Time)
 - Availability: 9am-6pm PST weekdays, some weekends
 - Decision speed: Fast on product (hours), thoughtful on strategy (days)
 
 **What I Bring:**
-- Product vision based on 8 years professional experience
-- Direct access to paying customers (agencies I worked with)
-- Design skills (can create all brand assets, UI mockups)
-- Understanding of what agencies will actually pay for
+- Product vision based on deep creator understanding
+- Direct access to users (AI art communities)
+- Content creation skills (can create marketing, tutorials)
+- Understanding of what creators will actually pay for
 
 ---
 
@@ -98,83 +100,83 @@ Visionix AI is the first AI image generator built for professional workflows:
 ### The Product
 
 **Category:**
-B2B SaaS - Vertical AI tool for professional designers
+B2C SaaS - Consumer AI tool for content creators and digital artists
 
 **Description:**
-Visionix AI reimagines AI image generation for professional workflows. Instead of a feed-based, single-user experience, we provide a spatial canvas where teams collaborate on visual projects.
+Dreamforge reimagines AI image generation around a spatial canvas, not a chronological feed. Users create projects for different themes ("Cyberpunk Characters", "Fantasy Landscapes", "Logo Ideas"), generate multiple variations, and arrange them spatially for visual comparison.
 
-Imagine Figma's infinite canvas, but every element is AI-generated. Designers create a project for "Nike Summer Campaign", generate dozens of variations in parallel, arrange them spatially for comparison, comment with teammates, lock in the style, and share a presentation link with the client for feedback.
+Imagine an infinite canvas where every element is AI-generated. Create a "Character Design" project, generate 20 variations with different prompts, arrange the best 5 side-by-side for comparison, iterate on the winner, and share a beautiful link with friends.
 
-The core innovation is treating AI generation as a collaborative design process, not a slot machine. We maintain full generation history, enable style consistency across projects, and integrate with designer workflows (Figma import/export, Adobe sync, Slack notifications).
+The core innovation is treating AI generation as a **creative process**, not a slot machine. We maintain full generation history, enable style consistency across projects, and let creators organize work visually (not buried in feeds).
 
-We're not competing on AI model quality (everyone uses the same models). We're winning on workflow efficiency and team collaboration.
+We're not competing on AI model quality (everyone uses the same models). We're winning on **workflow, organization, and user experience**.
 
 **Core Value Proposition:**
-"Cut AI generation workflow time from 5 hours to 30 minutes per project while maintaining professional quality"
+"Find the perfect AI image in 10 minutes instead of 2 hours searching through endless feeds"
 
 **Competitive Advantages:**
-1. **First-mover in collaboration** - Only AI tool with real-time team workspace
-2. **Built for professionals** - Project management features others lack
-3. **Agency relationships** - 20 agencies committed to beta, providing direct feedback loop
-4. **Network effects** - Teams invite teams (viral within agencies)
+1. **Spatial organization** - Only tool with infinite canvas for AI generations
+2. **Never lose work** - Full history, not lost in feed after 100 more generations
+3. **Creator-first UX** - Built for humans, not Discord bots
+4. **Fast iteration** - Visual comparison beats mental recall
 
 ### Target Users
 
 **Primary User Persona:**
 
-**Name:** "Designer David"
+**Name:** "Creator Chris"
 
 **Demographics:**
-- Age: 28-40
-- Location: Major US cities (SF, NY, LA, Austin)
-- Role: Senior Designer at mid-size agency (20-100 employees)
-- Income: $80K-120K/year
-- Tech savviness: High - uses Figma, Adobe Suite, Slack daily
+- Age: 22-38
+- Location: Global (US, EU, Asia)
+- Role: Content creator, digital artist, hobbyist, social media manager
+- Income: $30K-80K/year (or student/hobbyist)
+- Tech savviness: Medium-high - uses Canva, Figma, social media tools daily
 
 **Psychographics:**
-- Goals: Deliver high-quality work faster, impress clients, grow reputation
-- Frustrations: AI tools feel like toys, not professional tools. Disorganized. No collaboration.
-- Daily workflow: Jumps between Figma, Adobe, AI tools, client feedback tools
-- Budget: Agency pays for tools, but David influences purchases ($50/month max)
-- Values: Speed + quality, collaborative, organized, professional
+- Goals: Create stunning visuals fast, grow social media, build portfolio, stand out
+- Frustrations: Current AI tools feel disorganized, lose good generations, hard to iterate
+- Daily workflow: Create content for Instagram/TikTok/YouTube, design projects, explore ideas
+- Budget: $10-50/month for tools (pays for Canva Pro, Spotify, Netflix)
+- Values: Speed + quality, easy to use, beautiful, shareable
 
 **Pain Points (Ranked):**
-1. **Organization chaos** (10/10 pain) - Generations dumped in feed, hard to find
-2. **No collaboration** (9/10 pain) - Can't work with team, no shared workspace
-3. **Client presentation** (8/10 pain) - Screenshots to present, unprofessional
-4. **Style consistency** (8/10 pain) - Hard to maintain look across campaign
-5. **Version control** (7/10 pain) - Can't revert, lost good iterations
+1. **Organization chaos** (9/10 pain) - Everything lost in endless feed
+2. **Lost generations** (8/10 pain) - Can't find that perfect image from yesterday
+3. **No comparison** (8/10 pain) - Can't compare variations side-by-side
+4. **Sharing difficulty** (7/10 pain) - Send screenshots, not professional links
+5. **Style inconsistency** (6/10 pain) - Hard to maintain look across project
 
 **User Journey:**
 ```
-Current state: Uses Leonardo.ai solo, downloads everything, organizes in folders
+Current state: Uses Leonardo.ai or Midjourney, frustrated with feed chaos
      ↓
-Pain point: Client requests "Nike campaign, 20 variations, 3 styles" - takes 5 hours, messy
+Pain point: Trying to design character - generated 50 variations, can't find best ones
      ↓
-Discovery: Sees Visionix tweet from designer they follow: "saved me 4 hours on a campaign"
+Discovery: Sees Dreamforge tweet (creator they follow shared)
      ↓
-Trial: Signs up, creates "Nike Campaign" project, generates in parallel, loves spatial layout
+Trial: Signs up, creates "Character Design" project, generates 10, arranges on canvas
      ↓
-Aha moment: Shares workspace link with teammate, they collaborate in real-time - "This is Figma for AI!"
+Aha moment: "This is SO much better! I can actually see and compare!"
      ↓
-Power user: Creates 3-5 projects/week, brings whole team (5 seats), agency buys team plan
+Power user: Creates 5-10 projects/week, shares canvas links on Twitter/Discord
      ↓
-Champion: Tweets about it, refers other designers, becomes beta advisor
+Champion: Tweets about it, refers friends, becomes community member
 ```
 
 **Secondary User Personas:**
 
-**"Agency Owner Alice" (Decision Maker)**
-- Age: 35-50, owns agency (10-50 employees)
-- Pain: Team using 5 different AI tools, no standardization, can't track usage
-- Buys: Team plans ($200-1000/month), wants admin controls, usage analytics
-- Values: ROI, team efficiency, professional client deliverables
+**"Hobbyist Hannah"** (Casual User)
+- Age: 25-40, hobbyist artist
+- Pain: Overwhelmed by current tools
+- Buys: Free tier → Starter when hooked
+- Values: Easy, beautiful, fun
 
-**"Freelancer Fiona" (Individual User)**
-- Age: 25-35, solo designer
-- Pain: Can't afford team features, but wants organization and client sharing
-- Buys: Pro plan ($29/month), uses for client work
-- Values: Affordable, professional, makes her look bigger than solo
+**"Prosumer Paul"** (Power User)
+- Age: 28-45, semi-professional creator
+- Pain: Managing dozens of projects
+- Buys: Pro plan ($49/month)
+- Values: Professional features, unlimited history
 
 ---
 
@@ -184,137 +186,121 @@ Champion: Tweets about it, refers other designers, becomes beta advisor
 
 **Core Features** (P0 - Blocking launch):
 
-1. **Canvas Workspace**
-   - User story: As a designer, I want to arrange AI generations spatially so that I can compare variations side-by-side visually
-   - Acceptance criteria:
-     - [ ] Infinite canvas (drag, zoom, pan like Figma)
-     - [ ] Drop generations onto canvas
-     - [ ] Resize, move, arrange generations freely
-     - [ ] Grid and alignment guides
-     - [ ] Canvas saves state (persist layout)
-     - [ ] Export canvas as PDF/PNG (for client presentations)
-   - Success metric: 80%+ users use canvas vs list view within first week
-   - Estimated effort: 1 week (CTO Orion assessment)
+**1. Canvas Workspace**
+- User story: As a creator, I want to arrange AI generations spatially so I can compare variations visually
+- Acceptance criteria:
+  - [ ] Infinite canvas (drag, zoom, pan like Figma)
+  - [ ] Drop generations onto canvas
+  - [ ] Resize, move, arrange generations freely
+  - [ ] Grid/alignment guides
+  - [ ] Canvas saves state automatically
+  - [ ] Export canvas as PNG
+- Success metric: 80%+ users prefer canvas vs grid view
+- Estimated effort: 1 week
 
-2. **AI Image Generation**
-   - User story: As a designer, I want to generate high-quality images from text prompts so that I can create visual concepts quickly
-   - Acceptance criteria:
-     - [ ] Text prompt input (max 500 chars)
-     - [ ] Model selection (SDXL, SD 1.5)
-     - [ ] Style presets (Photorealistic, Illustration, 3D, etc.)
-     - [ ] Aspect ratio options (1:1, 16:9, 9:16, custom)
-     - [ ] Advanced settings (steps, CFG, seed)
-     - [ ] Generation time <30 seconds
-     - [ ] Progress indicator with estimated time
-     - [ ] Retry on failure (auto + manual)
-     - [ ] Generation history (keep last 100)
-   - Success metric: <5% generation failure rate, <30s avg generation time
-   - Estimated effort: 1 week
+**2. AI Image Generation**
+- User story: As a creator, I want to generate beautiful images from text
+- Acceptance criteria:
+  - [ ] Text prompt input (max 500 chars)
+  - [ ] Style presets (Anime, Photorealistic, Fantasy, Sci-fi)
+  - [ ] Aspect ratio options (1:1, 16:9, 9:16, 4:5)
+  - [ ] Generation time <30 seconds
+  - [ ] Progress indicator
+  - [ ] Auto-retry on failure
+  - [ ] History (last 100)
+- Success metric: <5% failure rate, <30s avg
+- Estimated effort: 1 week
 
-3. **Project Organization**
-   - User story: As a designer, I want to organize generations into projects so that client work stays separate and findable
-   - Acceptance criteria:
-     - [ ] Create project (name, description, cover image)
-     - [ ] All generations belong to a project
-     - [ ] Default "Personal" project for testing
-     - [ ] Project switcher in header
-     - [ ] Project settings (rename, delete, archive)
-     - [ ] Project grid view (all projects)
-     - [ ] Recent projects quick access
-   - Success metric: 70%+ users create 2+ projects in first month
-   - Estimated effort: 3 days
+**3. Project Organization**
+- User story: As a creator, I want to organize generations into projects
+- Acceptance criteria:
+  - [ ] Create project (name, emoji/cover)
+  - [ ] All generations belong to a project
+  - [ ] Default "Personal Playground"
+  - [ ] Project switcher in header
+  - [ ] Project grid view
+  - [ ] Delete/rename projects
+- Success metric: 70%+ users create 2+ projects in first month
+- Estimated effort: 3 days
 
-4. **User Authentication**
-   - User story: As a user, I want to sign up and save my work so I can access it from anywhere
-   - Acceptance criteria:
-     - [ ] Sign up with email/password
-     - [ ] Google OAuth
-     - [ ] Email verification
-     - [ ] Password reset
-     - [ ] Profile page (name, email, avatar)
-     - [ ] Account settings
-     - [ ] Logout
-   - Success metric: 70%+ signup completion rate
-   - Estimated effort: 2 days (using Clerk)
+**4. User Authentication**
+- User story: As a user, I want to sign up easily
+- Acceptance criteria:
+  - [ ] Email/password signup
+  - [ ] Google OAuth (one-click)
+  - [ ] Email verification
+  - [ ] Password reset
+  - [ ] Profile settings
+- Success metric: 80%+ signup completion
+- Estimated effort: 2 days (using Clerk)
 
-5. **Credit System**
-   - User story: As a user, I want free credits to try the product so I can validate value before paying
-   - Acceptance criteria:
-     - [ ] New users get 50 free credits
-     - [ ] Each generation costs 1 credit
-     - [ ] Credit balance visible in header
-     - [ ] Credit history page (transactions)
-     - [ ] Warning modal at 10 credits remaining
-     - [ ] Block generation at 0 credits with upgrade CTA
-     - [ ] Purchase credits page (link to Stripe)
-   - Success metric: 60%+ users exhaust free credits (strong engagement signal)
-   - Estimated effort: 2 days
+**5. Credit System**
+- User story: As a user, I want free credits to try before paying
+- Acceptance criteria:
+  - [ ] 50 free credits for new users
+  - [ ] 1 credit per generation
+  - [ ] Balance visible in header
+  - [ ] Warning at 10 credits
+  - [ ] Block at 0 with upgrade prompt
+  - [ ] Credit history page
+- Success metric: 60%+ exhaust free credits
+- Estimated effort: 2 days
 
-6. **Payment & Billing**
-   - User story: As a user, I want to buy credits so I can continue generating when free credits run out
-   - Acceptance criteria:
-     - [ ] Stripe integration
-     - [ ] Purchase page with credit packages
-     - [ ] Secure checkout (Stripe hosted)
-     - [ ] Email confirmation on purchase
-     - [ ] Credits added immediately on payment success
-     - [ ] Stripe webhook handling (payment success/failure)
-     - [ ] Payment history page
-     - [ ] Invoice generation
-   - Success metric: 40%+ users make first purchase within 2 weeks
-   - Estimated effort: 3 days
+**6. Payment & Billing**
+- User story: As a user, I want to buy credits when I run out
+- Acceptance criteria:
+  - [ ] Stripe integration
+  - [ ] Pricing page
+  - [ ] Secure checkout
+  - [ ] Credits added immediately
+  - [ ] Email confirmation
+  - [ ] Payment history
+- Success metric: 40%+ convert to paid within 2 weeks
+- Estimated effort: 3 days
 
-**Total MVP Effort: 3-4 weeks (CTO Orion estimate)**
+**Total MVP Effort: 3-4 weeks**
 
-**Launch Requirements** (Must have all):
-- [ ] Core features working end-to-end
-- [ ] Mobile responsive (70% traffic expected on desktop, but 30% mobile)
+**Launch Requirements:**
+- [ ] All core features working
+- [ ] Mobile responsive (50% on mobile)
 - [ ] <2s page load, <30s generation
-- [ ] Error handling (friendly messages, no crashes)
-- [ ] Privacy policy & Terms of Service
-- [ ] Help docs (basic - 5 pages covering key workflows)
-- [ ] Analytics tracking (PostHog events)
-- [ ] 99% uptime monitoring (BetterStack)
-- [ ] Onboarding flow (3-step walkthrough)
+- [ ] Friendly error handling
+- [ ] Privacy Policy & ToS
+- [ ] Help docs (5 pages)
+- [ ] Analytics (PostHog)
+- [ ] Uptime monitoring
+- [ ] 3-step onboarding
 
-### Post-MVP Features (Can Wait)
+### Post-MVP Features
 
 **Phase 2** (Week 5-8):
-- Real-time collaboration (multiple users on canvas simultaneously)
-- Comments/annotations on generations
-- Sharing (public link to canvas, view-only mode)
-- Style locking (save style settings, apply to future generations)
-- Batch generation (queue 10 prompts, generate in parallel)
+- Style locking
+- Batch generation
+- Advanced canvas (layers, folders)
+- Public sharing
+- Generation remixing
 
 **Phase 3** (Month 3-4):
-- Team accounts (5+ user seats, shared credits, admin controls)
-- Version history (track every edit, revert to any version)
-- Export integrations (Figma plugin, Adobe sync)
-- Custom models (upload LoRAs, use custom checkpoints)
-- API access (for agencies to integrate into workflows)
+- Community gallery
+- Collections
+- Custom models
+- Export to Figma/Adobe
+- Mobile app
 
 **Phase 4** (Month 5-6):
-- Enterprise features (SSO, audit logs, contract terms)
-- Advanced canvas (layers, folders, frames like Figma)
-- AI assistance (suggest prompts, auto-style matching)
-- Video generation (extend beyond images)
+- Team collaboration (2-3 people)
+- Advanced editing
+- Video generation
+- API access
 
-**Future/Nice-to-Have:**
-- Mobile apps (iOS, Android)
-- Desktop app (Electron)
-- AI video editing
-- 3D asset generation
-
-### What We're NOT Building (Important!)
+### What We're NOT Building
 
 **Out of Scope:**
-- ❌ Social network features (we're not Instagram for AI art)
-- ❌ Marketplace (we're not selling user creations)
-- ❌ Custom model training (too complex for MVP, maybe Year 2)
-- ❌ Advanced editing tools (we integrate with Figma/Adobe, not replace)
-- ❌ Animation/video (Phase 4+, not MVP)
-
-**Why list this:** Keeps focus razor-sharp. These ideas will tempt us. We say no.
+- ❌ Social network
+- ❌ NFT marketplace
+- ❌ Model training
+- ❌ Advanced editing suite
+- ❌ Enterprise features Year 1
 
 ---
 
@@ -322,184 +308,99 @@ Champion: Tweets about it, refers other designers, becomes beta advisor
 
 ### Monetization Strategy
 
-**Primary Revenue Stream:**
-Freemium → Credit purchases + Subscriptions (hybrid model)
-
-**Why Hybrid:**
-- Credits: Align cost with usage (fair for light users)
-- Subscriptions: Predictable revenue, better for power users
-- Best of both: Users choose what fits their workflow
+**Primary Revenue:** Freemium → Credits + Subscriptions (hybrid)
 
 **Pricing Structure:**
 
 **Free Tier (Forever Free):**
-- Credits: 50 credits/month (50 generations)
-- Features: All core features, canvas, projects (max 3), single user
-- Limitations: Watermark on exports, standard queue, community support
-- Goal: Let designers test on personal projects before agency purchase
-- Conversion target: 25% convert to paid within 60 days
+- Credits: 50/month (50 generations)
+- Features: All core, 3 projects max, 30-day history
+- Limitations: Watermark, standard queue
+- Goal: Let users fall in love first
+- Target: 25% convert to paid within 60 days
 
-**Starter Plan - $19/month:**
-- Credits: 200 credits/month (200 generations)
-- Features: Everything in Free + No watermark, priority queue, email support
-- Target: Freelancers, solo designers
-- Conversion target: 15% of free users → Starter
+**Starter - $19/month:**
+- Credits: 200/month
+- Features: Free + No watermark, priority queue, unlimited projects
+- Target: Hobbyists, regular users
+- Expected: 60% of paid users
 
-**Pro Plan - $49/month (MOST POPULAR):**
-- Credits: 600 credits/month (600 generations)
-- Features: Everything in Starter + Collaboration (3 guests), unlimited projects, version history, style locking, batch generation
-- Target: Professional designers at agencies
-- Conversion target: 10% of free users → Pro
+**Pro - $49/month (MOST POPULAR):**
+- Credits: 600/month
+- Features: Starter + Unlimited history, style locking, batch, HD exports
+- Target: Content creators, semi-professionals
+- Expected: 35% of paid users
 
-**Team Plan - $199/month:**
-- Credits: 2,500 credits/month (shared pool)
-- Seats: 5 users included
-- Features: Everything in Pro + Team workspace, admin controls, usage analytics, priority support, remove branding, Slack integration
-- Target: Design agencies (5-20 person teams)
-- Add-on: $35/month per additional seat
+**Creator - $99/month:**
+- Credits: 1,500/month
+- Features: Pro + API, priority support, custom models, team (3 seats)
+- Target: Professional creators
+- Expected: 5% of paid users
 
-**Enterprise - Custom Pricing:**
-- Credits: Custom (typically 10K+/month)
-- Seats: 20+ users
-- Features: Everything in Team + SSO, custom contract terms, dedicated account manager, SLA guarantee, API access, custom integrations, training sessions
-- Target: Large agencies (50+ employees), in-house design teams at enterprises
-- Minimum: $1,000/month
-- Sales: Direct sales, demo required
-
-**Additional Revenue:**
-
-**Credit Top-Ups** (Available to all paid plans):
-- 100 credits: $10 (one-time purchase)
+**Credit Top-Ups:**
+- 100 credits: $10
 - 500 credits: $45 (10% discount)
 - 1,000 credits: $80 (20% discount)
-- Goal: Monetize power users who exceed plan limits
 
 **Annual Plans** (16% discount):
-- Starter: $192/year (vs $228)
-- Pro: $499/year (vs $588)
-- Team: $1,999/year (vs $2,388)
-- Goal: Improve cash flow, reduce churn
+- Starter: $192/year
+- Pro: $499/year
+- Creator: $999/year
 
 ### Financial Projections
 
-**Costs (Monthly):**
+**Monthly Costs:**
+- Infrastructure: $105-5,149 (scales with usage)
+- Tools: $20-121 + Stripe fees
+- **Total Burn (MVP):** $125-5,270/month
 
-**Infrastructure (Usage-Based):**
-- Hosting (Vercel): $0-20 (free until scale)
-- Database (Neon): $0-19 (free tier for MVP)
-- Redis (Upstash): $0-10 (free tier for MVP)
-- AI API (Replicate): $100-2,000 (scales with generations)
-- Storage (Cloudflare R2): $5-50 (images)
-- CDN: $0 (free with R2)
-- **Subtotal: $105-2,099/month**
-
-**Tools & Services (Fixed):**
-- Auth (Clerk): $0-25 (free for <5K MAU)
-- Payments (Stripe): 2.9% + $0.30 per transaction
-- Email (Resend): $20
-- Analytics (PostHog): $0-50 (free for MVP)
-- Monitoring (Sentry): $0-26 (free tier)
-- Error tracking (BetterStack): $0 (free plan)
-- **Subtotal: $20-121/month + Stripe fees**
-
-**Total Monthly Burn (MVP):** $125-2,220/month + Stripe fees
-
-**Gross Margin Calculation:**
-- Revenue per user (avg $30/month)
-- COGS (AI + infrastructure): ~$5/user/month at scale
-- Gross margin: ~83% (excellent for SaaS)
+**Gross Margin:**
+- Revenue/user: $30/month avg
+- COGS: ~$3/user at scale
+- Margin: ~90% (excellent for consumer SaaS)
 
 **Revenue Goals:**
 
-**Month 1-2:** $0 (building MVP)
-
 **Month 3 (Launch):**
-- Free users: 100 (from beta list)
-- Paid users: 10 (early supporters at $30 avg)
-- MRR: $300
-- Costs: $500
-- Burn: -$200/month
+- Free: 500, Paid: 50
+- MRR: $1,500
+- Costs: $800
+- Profit: $700/month ✅
 
 **Month 6:**
-- Free users: 500
-- Paid users: 100 (20% conversion)
-- Team plans: 3 agencies
-- MRR: $3,597
-  - 50 Starter ($19): $950
-  - 40 Pro ($49): $1,960
-  - 10 Team seats from 3 teams ($199/team avg): $597
-  - Top-ups: $90
-- Costs: $1,200
-- Profit: $2,397/month ✅
-
-**Month 12:**
-- Free users: 2,000
-- Paid users: 500 (25% conversion from beta + marketing)
-- Team plans: 15 agencies
-- MRR: $19,485
-  - 200 Starter: $3,800
-  - 250 Pro: $12,250
-  - 50 Team seats: $2,985
-  - Top-ups: $450
-- Annual ARR: $233,820
-- Costs: $4,500
-- Profit: $14,985/month ✅
+- Free: 3,000, Paid: 500
+- MRR: $17,250
+- Costs: $2,500
+- Profit: $14,750/month ✅
 - **Break-even: Month 4**
 
+**Month 12:**
+- Free: 15,000, Paid: 2,500
+- MRR: $85,750
+- ARR: $1,029,000 (over $1M!)
+- Costs: $8,000
+- Profit: $77,750/month ✅✅
+
 **Year 2:**
-- Users: 10,000 free, 2,000 paid
-- MRR: $92,000
-- ARR: $1.1M
-- Team size: Hire 1 engineer, 1 support
-- Costs: $25K/month (salaries + infra)
-- Profit: $67K/month
+- 50K free, 10K paid
+- MRR: $300K, ARR: $3.6M
 
 **Year 3:**
-- Users: 50,000 free, 10,000 paid
-- MRR: $450K
-- ARR: $5.4M
-- Team: 10 people (eng, sales, support, marketing)
-- **Series A fundraise: $8-12M at $50M valuation**
+- 150K free, 30K paid
+- MRR: $900K, ARR: $10.8M
+- **Series A: $15-20M at $75M+ valuation**
 
-### Key Metrics to Track
+### Key Metrics
 
-**Acquisition (Top of Funnel):**
-- Website visitors/week
-- Signup conversion rate (visitor → signup)
-- Traffic sources (organic, referral, paid)
-- CAC (Customer Acquisition Cost) - target <$50
-- Viral coefficient (invites per user)
+**North Star:** Generations per week
 
-**Activation (Product Engagement):**
-- % who complete onboarding
-- % who create first project
-- % who generate first image
-- Time to first value (target <5 min)
-- % who generate 10+ images in first week
-
-**Retention (Stickiness):**
-- Day 1, 7, 30 retention rates
-- Weekly active users (WAU)
-- Monthly active users (MAU)
-- Generations per user per month
-- Projects created per user
-
-**Revenue (Monetization):**
-- MRR (Monthly Recurring Revenue)
-- ARPU (Average Revenue Per User)
-- Free → Paid conversion rate (target 25%)
-- LTV (Lifetime Value) - target >$500
-- Payback period - target <6 months
-- Churn rate - target <5%/month
-
-**Efficiency:**
-- LTV:CAC ratio (target >3:1)
-- Gross margin (target >80%)
-- Revenue per employee (target >$200K)
-
-**North Star Metric:** **Generations per week** (indicates engagement + revenue potential)
-- Target Month 6: 50K generations/week
-- Target Month 12: 500K generations/week
+**Track:**
+- Signups/week
+- Activation rate
+- Day 1/7/30 retention
+- Free → Paid conversion (target 20-25%)
+- MRR, ARPU, LTV, Churn (<5%)
+- CAC (<$20 for consumer)
 
 ---
 
@@ -507,316 +408,143 @@ Freemium → Credit purchases + Subscriptions (hybrid model)
 
 ### Launch Plan
 
-**Pre-Launch (Weeks 1-8 - Building MVP):**
+**Pre-Launch (Weeks 1-4):**
 
 Week 1-2:
-- [ ] Build landing page with email capture
-- [ ] Launch "Join Beta" campaign on Twitter
-- [ ] Email 50 designer friends personally
-- [ ] Post in 5 design communities (Designer News, Dribbble, Layers)
-- Goal: 500 email signups before launch
+- [ ] Landing page with waitlist
+- [ ] Twitter/X "Join Beta" campaign
+- [ ] Reddit (r/StableDiffusion, r/AiArt)
+- [ ] Discord (10+ AI art communities)
+- [ ] ProductHunt "Coming Soon"
+- Goal: 1,000 waitlist signups
 
 Week 3-4:
-- [ ] Create demo video (2 min, showing key workflow)
-- [ ] Interview 10 beta users, capture testimonials
-- [ ] Build ProductHunt page (teaser)
-- [ ] Prepare launch announcement thread (Twitter)
-- Goal: 1,000 email signups, 5 video testimonials
+- [ ] Demo video (90s)
+- [ ] Beta (50 users)
+- [ ] Collect testimonials
+- [ ] Prepare launch assets
+- Goal: 2,000 waitlist, 5 testimonials
 
-Week 5-6:
-- [ ] Private beta with 20 designers (from agency contacts)
-- [ ] Collect feedback, fix critical bugs
-- [ ] Prepare launch assets (screenshots, graphics, copy)
-- [ ] Reach out to 10 design influencers for launch day promotion
-- Goal: Beta users generating 1,000+ images, feedback incorporated
+**Launch Week (Week 5):**
+- [ ] ProductHunt at 12:01am PT
+- [ ] Twitter launch thread
+- [ ] Email waitlist
+- [ ] Reddit, Discord blitz
+- [ ] "Creation Challenge"
+- Goal: 3,000 signups, 200 paying Month 1
 
-Week 7-8:
-- [ ] Public beta (open to beta list)
-- [ ] Announce on Twitter daily (build-in-public style)
-- [ ] Publish 2 blog posts ("Why we built Visionix", "How agencies use AI")
-- [ ] Prepare ProductHunt launch for Week 9
-- Goal: 100 active beta users, 10,000 generations
-
-**Launch Week (Week 9):**
-
-Monday:
-- [ ] Launch on ProductHunt at 12:01am PT
-- [ ] Twitter announcement thread
-- [ ] Email entire beta list (2,000+ signups)
-- [ ] Post on HackerNews Show HN
-- [ ] Post on Reddit (r/SideProject, r/Entrepreneur, r/Design)
-
-Tuesday-Friday:
-- [ ] Engage with all ProductHunt comments
-- [ ] Twitter: Share user testimonials, use cases
-- [ ] Publish "Launch Week Recap" blog post
-- [ ] Reach out to tech press (TechCrunch, TheVerge - long shot but try)
-- [ ] Designer newsletter features (Sidebar, Dense Discovery)
-
-**Post-Launch (Week 10-12):**
-- [ ] User interview tour (30 calls with new users)
-- [ ] Fix top 10 most-requested features
-- [ ] Content marketing (2 blog posts/week)
-- [ ] Start paid acquisition testing ($500 budget)
-- [ ] Build waitlist for Team plan (for agencies interested)
-
-Goal: 1,000 signups launch week, 100 paying users by end of month
+**Post-Launch (Weeks 6-12):**
+- [ ] 50 user interviews
+- [ ] Ship top requests
+- [ ] Content (2 posts/week, YouTube)
+- [ ] Community (Discord server)
+- [ ] Paid testing ($500)
 
 ### Marketing Channels
 
-**Primary Channels (Month 1-6):**
+**1. Community-Led Growth** (70% early users)
+- Reddit, Discord, Twitter
+- Be helpful, showcase users
+- Budget: $0
 
-**1. Community-Led Growth**
-- Strategy: Engage in design communities where target users already spend time
-- Tactics:
-  - Answer questions in r/graphic_design, r/AdobeIllustrator
-  - Post helpful "How I use AI in my workflow" content
-  - Share free resources (prompt guides, style presets)
-  - Weekly Twitter threads on AI + design
-- Budget: $0 (time investment only)
-- Expected: 30% of signups Month 1-3
+**2. Product-Led Growth**
+- Shareable canvases ("Made with Dreamforge")
+- Public gallery
+- Referral (give 50, get 50 credits)
+- Budget: $200/month (credits)
 
-**2. Content Marketing (SEO)**
-- Strategy: Rank for "AI image generator for designers" and related keywords
-- Tactics:
-  - Publish 2 blog posts/week (workflows, tutorials, use cases)
-  - "Best AI image generators for [use case]" comparison posts
-  - YouTube tutorials (workflow videos, tips)
-  - Case studies from agency users
-- Budget: $0-200/month (contract writer if needed)
-- Expected: 20% of signups Month 3-6 (SEO takes time)
+**3. Content Marketing**
+- Blog tutorials, prompting guides
+- YouTube shorts
+- SEO: "Best AI image generator"
+- Budget: $0-200/month
 
-**3. Product-Led Growth**
-- Strategy: Product itself drives signups (viral features)
-- Tactics:
-  - Shareable canvases (public link shows "Made with Visionix")
-  - Referral program (give 50 credits, get 50 credits)
-  - Team invites (when user invites teammate)
-  - Portfolio page (show off your Visionix projects)
-- Budget: Credit costs only (~$100/month)
-- Expected: 15% of signups (grows over time)
+**4. Influencer Partnerships**
+- Free Pro to creators (1K-100K followers)
+- Affiliate: 30% commission
+- Budget: $0 upfront
 
-**4. Partnership/Referrals**
-- Strategy: Partner with complementary tools (Figma, Adobe)
-- Tactics:
-  - Figma plugin (import Visionix generations into Figma)
-  - Adobe extension (same for Photoshop)
-  - Partner with design bootcamps (Dribbble, Skillshare instructors)
-  - Affiliate program for design influencers (30% commission)
-- Budget: $0-500/month (affiliate payouts)
-- Expected: 10% of signups Month 6+
-
-**5. Paid Acquisition (Testing Only)**
-- Strategy: Test channels, double down on winners
-- Tactics:
-  - Twitter/X ads (target designers)
-  - Google Ads (search terms like "AI image generator")
-  - Reddit ads (r/graphic_design)
-  - Design newsletter sponsorships ($200-500/spot)
-- Budget: $500-1,000/month (testing only)
-- Target: CAC <$50, LTV:CAC >3:1
-- Expected: 5% of signups initially, scale if profitable
-
-**Why these channels:**
-- Low/no cost (bootstrap-friendly)
-- Target users where they already are
-- Build trust (content + community > ads)
-- Compounding (SEO + product virality grow over time)
+**5. Paid Acquisition** (Month 3+)
+- Twitter, Reddit, YouTube, Google ads
+- Budget: $500-1K/month testing
+- Target: CAC <$20
 
 ### Competitive Landscape
 
 **Direct Competitors:**
 
-**1. Leonardo.ai**
-- What they do well:
-  - High-quality generations
-  - Fast (optimized inference)
-  - Good prompt guidance
-  - Real-time canvas (recent addition)
-- What they do poorly:
-  - No team collaboration
-  - Project organization is weak
-  - No client sharing (professional use case ignored)
-  - Focus is hobbyists, not professionals
-- Our advantage:
-  - Built for teams from day 1
-  - Project management is core, not afterthought
-  - Client presentation mode (they don't have)
-  - Professional positioning (they're consumer-focused)
+**Leonardo.ai** ($10M+ ARR)
+- Strengths: Fast, quality, real-time canvas
+- Weaknesses: Weak organization
+- Our advantage: Superior organization, spatial canvas
 
-**2. Midjourney**
-- What they do well:
-  - Best artistic quality
-  - Strong community
-  - Consistent style evolution
-  - Fast iteration (upscale, variations)
-- What they do poorly:
-  - Discord-based (not professional)
-  - Zero organization (all in one feed)
-  - No team features
-  - Can't control canvas layout
-- Our advantage:
-  - Professional interface (not Discord)
-  - Spatial canvas organization
-  - Team collaboration built-in
-  - Client-ready presentation mode
+**Midjourney** ($200M ARR)
+- Strengths: Best quality, huge community
+- Weaknesses: Discord-only (terrible UX), no organization
+- Our advantage: Proper UI, organization, ease
 
-**3. Stable Diffusion (self-hosted)**
-- What they do well:
-  - Full control over models
-  - Unlimited generations
-  - No subscription (just GPU costs)
-  - Customizable (LoRAs, extensions)
-- What they do poorly:
-  - Requires technical setup
-  - No team collaboration
-  - No organization tools
-  - Intimidating for designers (not technical)
-- Our advantage:
-  - Zero setup (works immediately)
-  - Team features out of box
-  - Designer-friendly UX
-  - Professional workflow integration
+**DALL-E 3** (OpenAI)
+- Strengths: ChatGPT integration
+- Weaknesses: No organization, expensive
+- Our advantage: Canvas, projects, better value
 
-**Indirect Competitors:**
-
-**Adobe Firefly** (AI in Adobe Suite)
-- Threat: Integrated into tools designers already use
-- Our advantage: Faster iteration, better for ideation phase, export to Adobe
-
-**Canva** (Magic Studio)
-- Threat: Easy, accessible, large user base
-- Our advantage: Higher quality, professional features, not templates
-
-**Competitive Moat (How We Stay Defensible):**
-
-**Year 1: Workflow Innovation**
-- First to nail professional workflow (canvas + projects + collaboration)
-- Switching costs (users have projects, history in our platform)
-
-**Year 2: Network Effects**
-- Teams bring teams (agency uses us, client asks "what tool is this?")
-- Template/style library (shared within teams)
-- More users → better recommendations (AI learns from usage)
-
-**Year 3: Data & Integrations**
-- Deep integrations into designer stack (Figma, Adobe, Slack, Notion)
-- Custom models trained on agency brand styles
-- API becomes standard for design automation
-
-**Long-term:**
-- Own the professional designer workflow (Figma did this, we can too)
-- Enterprise contracts lock in large customers
-- Brand becomes synonymous with "professional AI design"
+**Competitive Moat:**
+- Year 1: UX innovation, switching costs
+- Year 2: Network effects, community
+- Year 3: Creator lock-in, integrations
 
 ---
 
 ## 🔧 Technical Requirements
 
-### Platform Requirements
+### Platform
 
 **Must Support:**
-- [ ] Desktop: Chrome, Safari, Firefox, Edge (last 2 versions)
-- [ ] Mobile web: iOS Safari, Chrome (responsive, not native app)
-- [ ] Tablet: iPad (optimized canvas experience)
+- Desktop: Chrome, Safari, Firefox, Edge
+- Mobile: iOS Safari, Chrome (optimized)
+- Tablet: iPad
 
-**Performance Requirements:**
-- Page load: <2 seconds (First Contentful Paint)
-- Time to interactive: <3 seconds
-- Canvas zoom/pan: 60 FPS (smooth interaction)
-- Image generation: <30 seconds (SDXL)
-- Upload speed: <5 seconds for 10MB image
-- 99.5% uptime (4 hours downtime/year max)
+**Performance:**
+- Page load: <2s
+- Interactive: <3s
+- Canvas: 60 FPS
+- Generation: <30s
+- Uptime: 99.5%
 
-**Scale Requirements:**
-- MVP (Month 1-3): 100 concurrent users
-- Month 6: 500 concurrent users, 50K generations/week
-- Year 1: 2,000 concurrent, 500K generations/week
-- Year 2: 10,000 concurrent, 5M generations/week
-
-**Infrastructure must:**
-- Auto-scale based on demand
-- Degrade gracefully (show queue if overloaded, don't crash)
-- Handle traffic spikes (ProductHunt launch day)
+**Scale:**
+- Month 3: 500 concurrent
+- Month 6: 2,000 concurrent
+- Year 1: 10,000 concurrent
 
 ### Data & Privacy
 
-**Data Collected:**
-- User account info: Email, name, avatar (via Clerk)
-- Workspace data: Projects, canvases, generations, prompts
-- Usage analytics: Events (generation created, canvas saved), time-based metrics
-- Payment info: Handled by Stripe (we only store payment_id reference)
-- IP address, user agent (standard web analytics)
-
-**Data We Don't Collect:**
-- Credit card numbers (Stripe handles)
-- Passwords in plain text (hashed via Clerk)
-- Personal browsing history outside our app
-
-**Data Retention:**
-- User content: Forever (unless user deletes account)
-- Analytics: 2 years (rolling)
-- Deleted accounts: 30-day grace period, then permanently delete
-
-**User Rights:**
-- Download all data (JSON export)
-- Delete account (GDPR right to be forgotten)
-- Opt-out of analytics (basic respect for privacy)
-
 **Compliance:**
-- [ ] GDPR compliant (EU users) - data processing agreement, user consent
-- [ ] CCPA compliant (California users) - privacy policy disclosure
-- [ ] SOC 2 Type II (Year 2 goal, required for enterprise)
-- [ ] Privacy policy (launch requirement)
-- [ ] Terms of service (launch requirement)
-- [ ] Cookie policy (GDPR requirement)
+- [ ] GDPR (EU)
+- [ ] CCPA (California)
+- [ ] Privacy Policy
+- [ ] Terms of Service
+- [ ] Cookie Policy
 
-### Security Requirements
+### Security
 
-**Must Have (Day 1):**
-- [ ] HTTPS everywhere (TLS 1.3)
-- [ ] Password hashing (bcrypt via Clerk)
-- [ ] CSRF protection (Next.js built-in)
-- [ ] XSS prevention (React escape by default, sanitize HTML)
-- [ ] SQL injection prevention (Prisma parameterized queries)
-- [ ] Rate limiting (API: 100 req/min per user, generation: 10/min)
-- [ ] Input validation (Zod schemas on all inputs)
-- [ ] Secure secret storage (Vercel env vars, Doppler for CTO)
-- [ ] Audit logging (track critical actions: payment, generation, deletion)
+**Day 1:**
+- [ ] HTTPS everywhere
+- [ ] Password hashing (Clerk)
+- [ ] CSRF, XSS, SQL injection prevention
+- [ ] Rate limiting (100 req/min)
+- [ ] Input validation (Zod)
+- [ ] Secure secrets
+- [ ] Audit logs
 
-**Post-Launch (Month 6):**
-- [ ] Penetration testing (hire security firm)
-- [ ] Bug bounty program (HackerOne)
-- [ ] Regular security audits (quarterly)
+### Integrations
 
-**Enterprise Requirements (Year 2):**
-- [ ] SSO (SAML, Okta, Azure AD)
-- [ ] SOC 2 Type II certification
-- [ ] Custom data retention policies
-- [ ] Dedicated instance option (for large customers)
+**MVP:**
+- Stripe, Replicate, Clerk
+- Resend, PostHog, Sentry
 
-### Integration Requirements
-
-**Required Integrations (MVP):**
-- Stripe: Payments, subscriptions, invoicing
-- Replicate: AI image generation API
-- Clerk: Authentication, user management
-- Resend: Transactional emails
-- PostHog: Product analytics
-- Sentry: Error tracking
-
-**Post-MVP Integrations (Phase 2-3):**
-- Figma: Plugin to import generations into Figma
-- Slack: Notifications when generation complete, share to Slack channel
-- Zapier: Connect to 1,000+ apps
-- Webhooks: Let users/agencies integrate into their tools
-- API: Full REST API for enterprise customers
-
-**Why These First:**
-- Stripe: Can't monetize without it
-- Replicate: Core product functionality
-- Clerk: Can't ship without auth
-- Others: Improve UX, track performance, catch errors
+**Post-MVP:**
+- Figma, Discord, Twitter/X
+- Instagram, Webhooks
 
 ---
 
@@ -824,118 +552,48 @@ Goal: 1,000 signups launch week, 100 paying users by end of month
 
 ### Development Roadmap
 
-**Week 1-2: Foundation & Authentication**
+**Week 1-2: Foundation**
+- Repository, database, auth
+- Basic UI, CI/CD, error tracking
+- **Delivers:** Users can sign up
 
-Deliverables:
-- [ ] Repository setup (monorepo: Next.js + API)
-- [ ] Database schema design (users, projects, generations, payments)
-- [ ] Database deployed (Neon)
-- [ ] Authentication flow (Clerk integration)
-  - [ ] Sign up (email + Google OAuth)
-  - [ ] Login
-  - [ ] Password reset
-  - [ ] Protected routes
-- [ ] Basic UI shell (header, navigation, empty states)
-- [ ] CI/CD pipeline (GitHub Actions, auto-deploy to Vercel)
-- [ ] Error tracking (Sentry)
+**Week 3-4: Core Features**
+- AI generation, canvas, projects
+- History, persistence
+- **Delivers:** Generate and arrange on canvas
 
-**CTO Orion delivers:** Working auth, users can sign up and log in
+**Week 5: Credits & Payments**
+- Credit system, Stripe, checkout
+- **Delivers:** Users can buy, revenue flows
 
-**Week 3-4: Core Feature (AI Generation + Canvas)**
+**Week 6: Polish**
+- Onboarding, loading states, errors
+- Mobile responsive, help docs, legal
+- **Delivers:** Production-ready MVP
 
-Deliverables:
-- [ ] AI generation integration (Replicate API)
-- [ ] Generation form (prompt, settings, model selection)
-- [ ] Job queue (BullMQ via Upstash Redis)
-- [ ] Canvas component (infinite pan/zoom, drag-drop)
-- [ ] Generation card component (display image, prompt, metadata)
-- [ ] Place generations on canvas
-- [ ] Canvas state persistence (save layout to DB)
-- [ ] Generation history page
+**Week 7: Beta**
+- Private beta (50 users), bug fixes
+- Demo video, launch assets
+- **Delivers:** Stable product
 
-**CTO Orion delivers:** Users can generate images and arrange on canvas
-
-**Week 5: Project Organization + Credit System**
-
-Deliverables:
-- [ ] Project CRUD (create, read, update, delete)
-- [ ] Project switcher UI
-- [ ] All generations belong to a project
-- [ ] Default "Personal" project
-- [ ] Credit system backend
-  - [ ] Users start with 50 credits
-  - [ ] Deduct 1 credit per generation
-  - [ ] Prevent generation at 0 credits
-- [ ] Credit balance UI (header widget)
-- [ ] Credit history page
-
-**CTO Orion delivers:** Projects work, credits track correctly
-
-**Week 6: Payments (Stripe)**
-
-Deliverables:
-- [ ] Stripe integration (API keys, webhook setup)
-- [ ] Pricing page (display plans, credit packages)
-- [ ] Stripe Checkout (hosted checkout page)
-- [ ] Payment success handler (webhook: payment.succeeded)
-- [ ] Add credits on successful payment
-- [ ] Payment history page
-- [ ] Email confirmation on purchase (Resend)
-- [ ] Invoice generation (Stripe automatic invoices)
-
-**CTO Orion delivers:** Users can buy credits, revenue flows
-
-**Week 7: Polish & Testing**
-
-Deliverables:
-- [ ] Onboarding flow (3-step: create project, generate, arrange)
-- [ ] Loading states (skeletons, spinners)
-- [ ] Error handling (user-friendly messages)
-- [ ] Empty states (helpful prompts when canvas empty)
-- [ ] Mobile responsive (all pages)
-- [ ] Performance optimization (image CDN, lazy loading)
-- [ ] SEO (meta tags, OpenGraph, sitemap)
-- [ ] Help docs (5 pages: getting started, canvas, projects, billing, FAQ)
-- [ ] Legal pages (Privacy Policy, ToS)
-
-**CTO Orion delivers:** Production-ready MVP
-
-**Week 8: Beta + Pre-Launch**
-
-Deliverables:
-- [ ] Private beta with 20 users
-- [ ] Bug fixes from beta feedback
-- [ ] Analytics events tracking (PostHog: signup, generation, payment)
-- [ ] Uptime monitoring (BetterStack)
-- [ ] Landing page polish
-- [ ] Demo video (2 min product tour)
-- [ ] ProductHunt page prep
-- [ ] Launch announcement assets (Twitter thread, screenshots)
-
-**CTO Orion delivers:** Stable product, ready for public launch
-
-**Week 9: PUBLIC LAUNCH** 🚀
-
----
+**Week 8: PUBLIC LAUNCH** 🚀
 
 ### Key Milestones
 
-**Technical Milestones:**
-- [ ] **Week 2:** Auth working, users can sign up
-- [ ] **Week 4:** Core feature working (generation + canvas)
-- [ ] **Week 6:** Payments working, first dollar earned
-- [ ] **Week 8:** MVP complete, beta testing
-- [ ] **Week 9:** Public launch ✅
+**Technical:**
+- Week 2: Auth ✅
+- Week 4: Core features ✅
+- Week 5: Payments ✅
+- Week 8: Launch ✅
 
-**Business Milestones:**
-- [ ] **Week 9:** Launch day: 1,000 signups
-- [ ] **Month 1:** 100 active users, 10,000 generations
-- [ ] **Month 2:** First 10 paying customers ($300 MRR)
-- [ ] **Month 3:** 100 paying customers ($3K MRR)
-- [ ] **Month 6:** 500 paying, $20K MRR, break-even
-- [ ] **Month 12:** 2,000 paying, $100K MRR, profitable
-- [ ] **Year 2:** $1M ARR
-- [ ] **Year 3:** $5M ARR, raise Series A
+**Business:**
+- Week 8: 1,000 signups
+- Month 1: 100 active, 10K generations
+- Month 2: 50 paying ($1.5K MRR)
+- Month 3: 500 paying ($17K MRR)
+- Month 6: 2,500 paying, break-even
+- Month 12: 10K paying, $1M ARR
+- Year 3: $10.8M ARR, Series A
 
 ---
 
@@ -943,66 +601,47 @@ Deliverables:
 
 ### Budget
 
-**Total Available:** $50,000 (personal savings)
+**Available:** $50,000 (personal savings)
 
 **Allocation:**
-- Development (CTO Orion): Credits usage (~$500/month avg)
-- Infrastructure: $200-700/month (scales with usage)
-- Tools/Services: $100/month
-- Marketing: $500/month (testing channels)
-- Legal: $2,000 one-time (incorporate, legal docs)
-- Miscellaneous: $1,000/month (buffer)
+- Development: $500/month
+- Infrastructure: $200-800/month
+- Tools: $100/month
+- Marketing: $500/month
+- Legal: $2,000 one-time
+- Buffer: $1,000/month
 
-**Monthly Burn:** $2,300-3,300
+**Monthly Burn:** $2,300-2,900
+**Runway:** 17-21 months
+**Break-even:** Month 4
 
-**Runway:** 15-22 months (assuming zero revenue)
+### Time
 
-**Break-even goal:** Month 6 ($20K MRR)
+**Michael's Availability:**
+- 40-50 hours/week (full-time)
+- 9am-6pm PST weekdays
+- Sundays off
+- Deep work: mornings
+- Execution: afternoons
 
-**After break-even:** Reinvest profits into growth (paid ads, hire)
-
-**Fundraising:**
-- Bootstrapped until $1M ARR
-- Raise Seed: $1-2M at $8-12M valuation (Month 18-24)
-- Use case: Hire team (3 engineers, 1 marketing, 1 sales)
-
-### Time Commitment
-
-**My Availability (CEO Michael):**
-- Hours per week: 40-50 hours
-- Best working hours: 9am-6pm PST (some evenings/weekends)
-- Days off: Sunday (recharge day)
-- Blocked time:
-  - Mornings (9-11am): Deep work (product strategy, user interviews)
-  - Afternoons (2-5pm): Execution (testing, support, marketing)
-  - Evenings: Respond to CTO Orion updates, review PRs
-
-**Deadline Pressure:**
-- Hard deadline: None (not a client project)
-- Target: Launch in 8 weeks (realistic, not rushed)
-- Flexible: If we need Week 9 for polish, that's OK
-- Non-negotiable: No launch before it's ready (quality over speed)
-
-**Other Commitments:**
-- Full-time focus (no other jobs/projects)
-- Family: Evenings after 7pm, Sundays off
+**Deadline:**
+- Target: 8 weeks to launch
+- Flexible: Week 9 for polish if needed
+- Quality over speed
 
 ### Technical Constraints
 
 **Must Use:**
-- TypeScript (type safety required)
-- PostgreSQL (relational data needs)
-- Next.js (SEO + performance critical)
+- TypeScript, PostgreSQL, Next.js
 
 **Cannot Use:**
-- AWS (too expensive, too complex for MVP)
-- Self-hosted infrastructure (no ops bandwidth)
-- Proprietary/closed-source tools where open-source exists
+- AWS (too expensive/complex)
+- Self-hosted (no ops bandwidth)
 
 **Preferences:**
-- Serverless-first (scales automatically, pay-per-use)
-- Managed services (focus on product, not DevOps)
-- Best-in-class DX (Vercel, Neon, Clerk - premium tools OK if saves time)
+- Serverless-first
+- Managed services
+- Best-in-class DX
 
 ---
 
@@ -1010,202 +649,82 @@ Deliverables:
 
 ### Brand Identity
 
-**Brand Personality:**
-- **Professional:** Agencies trust us with client work
-- **Fast:** Name evokes speed, efficiency
-- **Innovative:** Pushing boundaries of what AI tools can do
-- **Collaborative:** Built for teams, not solo
+**Personality:**
+- Creative, friendly, magical, organized
 
 **Visual Style:**
-- **Colors:**
-  - Primary: Deep Blue (#1E40AF) - trust, professional
-  - Accent: Electric Purple (#8B5CF6) - innovation, creativity
-  - Success: Green (#10B981)
-  - Warning: Amber (#F59E0B)
-  - Error: Red (#EF4444)
-  - Neutral: Grays (#F9FAFB to #111827)
-- **Typography:**
-  - Headings: Inter (clean, modern, geometric)
-  - Body: Inter (same, maintains consistency)
-  - Code: JetBrains Mono (for technical elements)
-- **Overall vibe:** Clean, modern, professional (think Figma, not Dribbble)
+- Primary: Deep Purple (#7C3AED)
+- Accent: Cyan (#06B6D4)
+- Success: Green (#10B981)
+- Typography: Inter (headings/body)
+- Vibe: Playful yet professional (Notion meets Figma)
 
 **Logo:**
-- Concept: Abstract eye + infinity symbol (vision + unlimited)
-- Style: Minimal, geometric, works in monochrome
-- Formats: SVG (scalable), PNG (social)
+- Concept: Anvil + sparkles (forging dreams)
+- Style: Modern, friendly, memorable
 
 **Inspiration:**
-- Figma (professional, collaborative tools)
-- Linear (fast, polished, modern SaaS)
-- Vercel (developer-friendly, clean design)
+- Notion (friendly, powerful)
+- Linear (fast, polished)
+- Figma (creator-focused)
 
 ### User Experience
 
 **UX Principles:**
-1. **Fast over fancy** - Loading states, optimistic UI, instant feedback
-2. **Obvious over clever** - Clear labels, no hidden features
-3. **Helpful over minimal** - Empty states teach, errors guide
-4. **Professional over playful** - Designers using this for client work
-5. **Powerful but approachable** - Advanced features don't overwhelm beginners
+1. Delightful over sterile
+2. Obvious over clever
+3. Fast over fancy
+4. Forgiving over strict
+5. Personal over generic
 
 **Key Flows:**
 
-**1. Signup → First Value (<5 minutes):**
-```
-Land on homepage
-  ↓ (30 sec: read headline, see demo)
-Click "Start for free"
-  ↓ (1 min: email + password or Google)
-Onboarding wizard:
-  - Step 1: Create your first project (30 sec)
-  - Step 2: Generate your first image (1 min)
-  - Step 3: Place it on canvas (30 sec)
-  ↓
-Success! User sees their first AI generation on canvas
-"Aha moment" achieved in <5 minutes ✅
-```
+**Signup → First Value (<3 min):**
+Homepage (30s) → Google OAuth (30s) → Onboarding (90s) → First generation on canvas ✅
 
-**2. Generate → See Result (<30 seconds):**
-```
-User on canvas
-  ↓
-Click "Generate" button (always visible)
-  ↓
-Modal opens: prompt input
-  ↓ (20 sec: type prompt, adjust settings)
-Click "Generate"
-  ↓
-Modal shows: progress bar + estimated time (25 sec)
-  ↓
-Generation appears on canvas automatically
-  ↓
-User can immediately: move, resize, regenerate
-Total: <30 seconds from intent to result ✅
-```
+**Generate → Result (<30s):**
+Click Generate → Type prompt (20s) → Progress (25s) → Appears on canvas ✅
 
-**3. Purchase → Credits Added (<1 minute):**
-```
-User at 0 credits
-  ↓
-Tries to generate → blocked with modal
-  ↓
-Modal: "Out of credits. Choose a plan:"
-  ↓ (20 sec: review options)
-Click "Buy 100 credits ($10)"
-  ↓
-Redirect to Stripe Checkout (hosted)
-  ↓ (30 sec: enter card, complete)
-Stripe redirects back → credits added
-  ↓
-Notification: "100 credits added! Generate away."
-User can immediately generate ✅
-```
-
-**Empty States:**
-- New canvas: "Start by generating your first image →"
-- No projects: "Create a project to organize your work"
-- No generations: "Generate an image to get started"
-
-**Error States:**
-- Generation failed: "Generation failed. [Retry]" (don't lose prompt)
-- Payment failed: "Payment unsuccessful. [Try again] [Use different card]"
-- Network error: "Connection lost. [Retry] (we'll save your work)"
+**Purchase → Credits (<1 min):**
+0 credits → Choose plan (20s) → Stripe (30s) → Credits added ✅
 
 ---
 
 ## 🤝 Team & Roles
 
-### Team Structure (MVP Phase)
+### Team Structure (MVP)
 
-**CEO (Michael Chen) - You:**
-- Product vision & strategy
-- User research & feedback
-- Marketing & community
-- Customer support
-- Business development
-- Final decision authority
+**CEO (Michael Morillo):**
+- Product, users, marketing, support, business
 
-**CTO (Orion) - Claude Code:**
-- Technical architecture
-- Code implementation
-- Infrastructure & DevOps
-- Security & performance
-- Technical documentation
-- Technical decision authority
-
-**That's it.** Two-person team for MVP.
+**CTO (Orion):**
+- Tech, code, infrastructure, security
 
 **Post-Launch (Month 6+):**
-- Hire: Customer Success Rep (part-time, $2K/month)
-- Hire: Content Writer (contract, $500/month)
+- Customer Success (part-time, $2K/month)
 
-**Year 2 (Profitability):**
-- Hire: Full-Stack Engineer ($120K/year)
-- Hire: Growth Marketer ($100K/year)
-- Hire: Designer ($100K/year)
+**Year 2:**
+- Engineer ($120K), Community Manager ($80K)
 
-**Year 3 (Series A):**
+**Year 3:**
 - Team of 10-15
-- Engineering: 5 (backend, frontend, infra)
-- Product: 2 (PM, designer)
-- Go-to-Market: 5 (marketing, sales, success)
-- Operations: 1 (finance, ops)
 
 ### Communication
 
-**Daily Standups:**
-- Format: Async Slack message (morning)
-- Content:
-  - Michael: What I learned yesterday (user feedback), priorities today, blockers
-  - Orion: What shipped yesterday, working on today, questions for Michael
-- Time commitment: 5 min each
-
-**Weekly Review (Monday 9am):**
-- Format: Sync call (30 min)
-- Agenda:
-  - Review metrics (signups, MRR, engagement)
-  - Demo what shipped last week
-  - Prioritize this week's features
-  - Discuss blockers, strategic decisions
-- Output: Clear priorities for the week
-
-**Monthly Review (First Monday):**
-- Format: Sync call (1 hour)
-- Agenda:
-  - Review OKRs (Objectives & Key Results)
-  - Financial review (burn, runway, revenue)
-  - User feedback themes
-  - Roadmap adjustments
-- Output: Confirm or pivot strategy
+**Daily:** Async standup (Slack)
+**Weekly:** Monday 9am review (30 min)
+**Monthly:** 1st Monday review (1 hour)
 
 ### Decision Making
 
-**Michael (CEO) Has Final Say:**
-- ✅ What features to build (product prioritization)
-- ✅ Target users and positioning
-- ✅ Pricing and business model
-- ✅ Marketing strategy
-- ✅ Hiring decisions
-- ✅ Fundraising decisions
+**Michael Decides:**
+- Features, users, pricing, marketing, priorities
 
-**Orion (CTO) Has Final Say:**
-- ✅ Technology stack (with Michael's sign-off)
-- ✅ Code architecture
-- ✅ Database design
-- ✅ Infrastructure choices
-- ✅ Security implementations
+**Orion Decides:**
+- Tech stack, architecture, database, infrastructure, security
 
-**Collaborative Decisions:**
-- Feature scope (Michael wants, Orion assesses feasibility, negotiate)
-- Timeline estimates (Orion estimates, Michael prioritizes based on impact)
-- Build vs buy (Orion proposes, Michael approves based on budget)
-
-**Process:**
-1. Michael: "I want feature X because users need it for Y"
-2. Orion: "Feature X requires: [technical breakdown], estimated [N days]"
-3. Michael: "Approved, priority High/Medium/Low"
-4. Orion: Executes
+**Together:**
+- Feature scope, timeline, build vs buy
 
 ---
 
@@ -1213,63 +732,53 @@ User can immediately generate ✅
 
 ### Definition of Success
 
-**MVP Success (Week 9):**
-- [ ] Product live and publicly accessible
-- [ ] 1,000 signups launch week
-- [ ] 100 users generate 10+ images (activation)
-- [ ] 10 users purchase credits (monetization validated)
-- [ ] <5% error rate (stability)
-- [ ] 3+ positive testimonials (user satisfaction)
+**Week 8 (MVP):**
+- [ ] Product live
+- [ ] 1,000 signups
+- [ ] 100 users generate 10+ images
+- [ ] 50 purchases
+- [ ] <5% error rate
+- [ ] 5+ testimonials
 
-**Month 3 Success:**
-- [ ] 3,000 total signups
-- [ ] 500 active users (MAU)
-- [ ] 100 paying customers
-- [ ] $3K MRR (early traction)
-- [ ] <8% churn rate
-- [ ] 50K generations total
+**Month 6:**
+- [ ] 10K signups
+- [ ] 2K active
+- [ ] 1K paying
+- [ ] $30K MRR
+- [ ] Break-even ✅
 
-**Month 6 Success:**
-- [ ] 10,000 total signups
-- [ ] 2,000 active users
-- [ ] 500 paying customers
-- [ ] $20K MRR (break-even)
-- [ ] <5% churn rate
-- [ ] 3 agencies on Team plan (B2B validation)
+**Year 1:**
+- [ ] 50K signups
+- [ ] 10K active
+- [ ] 5K paying
+- [ ] $150K MRR / $1.8M ARR
+- [ ] Profitable
 
-**Year 1 Success (Month 12):**
-- [ ] 50,000 total signups
-- [ ] 10,000 active users
-- [ ] 2,000 paying customers
-- [ ] $100K MRR / $1.2M ARR
-- [ ] Profitable (revenue > costs)
-- [ ] 15 agencies on Team plan
-- [ ] Clear path to $5M ARR (Series A trajectory)
+**Year 3:**
+- [ ] 500K signups
+- [ ] 100K active
+- [ ] 30K paying
+- [ ] $900K MRR / $10.8M ARR
+- [ ] Series A raised
 
-**Exit Criteria (Year 3-5):**
-- $20M ARR (acquisition potential: $100-200M)
-- Or continue scaling to $100M+ (IPO path)
+### Red Flags
 
-### Red Flags (When to Pivot/Stop)
+**Stop Signals:**
+- Month 6: <250 paying
+- Month 12: <$30K MRR
+- Anytime: Churn >15%/month
+- Personal: Hate it 3+ months
 
-**Stop Signals (Kill Project):**
-- **Month 6:** <100 paying customers (market doesn't want this)
-- **Month 12:** <$10K MRR (not growing fast enough)
-- **Anytime:** Churn >15%/month (broken product)
-- **Anytime:** CAC > LTV (unit economics don't work)
-- **Personal:** Hate working on it for 3+ months straight
+**Pivot Signals:**
+- Users want different problem solved
+- Different segment more engaged
+- Better monetization discovered
+- Competitor 10x better
 
-**Pivot Signals (Change Direction):**
-- Users asking for different feature constantly (different problem to solve)
-- Different user segment more engaged (agencies vs freelancers, etc.)
-- Better monetization model discovered (subscription vs credits, etc.)
-- Competitor launches same thing but 10x better (rethink differentiation)
-
-**When in Doubt:**
-- Talk to 20 users
-- Ask: "Would you be very disappointed if this product disappeared?"
-- If <40% say "very disappointed" → pivot or stop
-- (This is Sean Ellis test for product-market fit)
+**Sean Ellis Test (Month 3):**
+Ask 20 users: "Would you be very disappointed if Dreamforge disappeared?"
+- <40% "very disappointed" → pivot
+- >40% → product-market fit, keep going
 
 ---
 
@@ -1277,50 +786,45 @@ User can immediately generate ✅
 
 ### Pre-Execution Checklist
 
-Before CTO Orion starts building:
-
 **Planning (Complete ✅):**
-- [x] This PROJECT-BRIEF filled out completely
-- [x] Clear MVP scope (6 core features defined)
-- [x] Target users defined (Designer David persona)
-- [x] Timeline set (8 weeks to launch)
+- [x] PROJECT-BRIEF complete
+- [x] MVP scope defined
+- [x] Target users defined
+- [x] 8-week timeline set
 
-**Infrastructure (Next Steps):**
-- [ ] Michael creates: Vercel account (free tier)
-- [ ] Michael creates: Stripe account (test mode first)
-- [ ] Michael decides: Product name (not Napolion, see CEO notes)
-- [ ] Michael purchases: Domain (.com + .ai, ~$30 total)
-- [ ] Michael creates: Business email (hello@product.com via Cloudflare)
-- [ ] Michael sets up: Neon database account (during Week 1 with Orion)
-- [ ] Michael sets up: Upstash account (during Week 1 with Orion)
+**Infrastructure (Next):**
+- [ ] Michael: Vercel account
+- [ ] Michael: Stripe account
+- [ ] Michael: Confirm name (Dreamforge?)
+- [ ] Michael: Purchase domain
+- [ ] Michael: Business email
 
 **Personal:**
-- [x] Time commitment available (40-50 hours/week)
-- [x] Budget allocated ($50K runway, $2-3K/month burn)
-- [x] Support system (founder community joined)
-- [x] Mentally prepared (embrace imperfect v1, iterate fast)
+- [x] 40-50 hours/week commitment
+- [x] $50K budget
+- [x] Mentally prepared
 
 **Technical:**
-- [x] Mac with 16GB+ RAM (Michael has this)
-- [ ] Cursor installed (download from cursor.sh)
-- [x] Git configured ✅ (completed with Orion)
-- [x] GitHub SSH keys ✅ (completed with Orion)
+- [x] Mac 16GB+ RAM
+- [ ] Cursor installed
+- [x] Git configured ✅
+- [x] GitHub SSH ✅
 
 ### Approval
 
 **Status:** ✅ **APPROVED - Ready to Execute**
 
 **Approved by:**
-- **CEO:** Michael Chen - November 14, 2025
-- **CTO (Orion):** Ready to build immediately upon Michael's go signal
+- **CEO:** Michael Morillo - November 14, 2025
+- **CTO:** Orion - Ready on Michael's signal
 
 **Next Steps:**
-1. **Michael:** Complete infrastructure setup (accounts, domain)
-2. **Michael:** Final decision on product name
-3. **Michael:** Message Orion: "Project approved. Let's build Visionix" (or chosen name)
-4. **Orion:** Create repository, set up foundation (Week 1)
-5. **Both:** Execute 8-week MVP plan
-6. **Launch:** Week 9 (public launch)
+1. Michael: Infrastructure setup
+2. Michael: Confirm name (Dreamforge?)
+3. Michael: "Let's build Dreamforge"
+4. Orion: Create repo, foundation
+5. Execute: 8-week plan
+6. Launch: Week 8 🚀
 
 ---
 
@@ -1329,47 +833,48 @@ Before CTO Orion starts building:
 ### Why This Product Now
 
 **Market Timing:**
-- AI image generation exploded in 2023-2024 (Midjourney, Leonardo.ai hit mainstream)
-- Professionals using AI but frustrated with consumer tools
-- Agencies starting to bill for AI design work (new service offering)
-- Gap in market: No tool built specifically for professional/team use
+- AI mainstream (2023-2024)
+- 50M+ creators frustrated
+- Midjourney $200M ARR (B2C!)
+- Leonardo $10M ARR in 18mo (B2C!)
+- Gap: No tool for organization
 
-**Personal Context:**
-- Lived this pain for 2 years using AI tools for client work
-- Watched Leonardo.ai grow to $10M ARR in 18 months (market validated)
-- Agency friends saying "we need team features" (demand confirmed)
-- Positioned to win: domain expertise + user access + market timing
+**Personal:**
+- Michael lived this 2+ years
+- Active in AI communities
+- Direct user access
+- Perfect timing
 
 **Why We'll Win:**
-- Incumbents (Leonardo, Midjourney) focused on hobbyists
-- Professionals underserved (our beachhead)
-- Network effects (teams bring teams)
-- Switching costs (once agency standardizes on us, sticky)
+- Incumbents ignore organization
+- Consumers underserved
+- Viral potential
+- Better UX wins consumer markets
 
 ### Questions for Orion
 
 **Before starting:**
-1. Confirm: Next.js 14 + TypeScript + Tailwind + shadcn/ui stack approved?
-2. Confirm: Neon (PostgreSQL) + Prisma for database?
-3. Confirm: Replicate for AI API (can switch to Modal/RunPod later)?
-4. Canvas library recommendation? (Konva.js, React-Three-Fiber, custom?)
-5. Real-time collaboration (Phase 2): Liveblocks vs Partykit vs custom?
+1. Confirm: Next.js 14 + TypeScript + Tailwind + shadcn/ui?
+2. Confirm: Neon PostgreSQL + Prisma?
+3. Confirm: Replicate (MVP)?
+4. Canvas library: Konva.js, React-Three-Fiber, custom?
+5. Real-time (Phase 2): Liveblocks vs Partykit?
 
 **During build:**
-6. When should Michael start beta testing? (Week 6 or 7?)
-7. Infrastructure costs: Alert me if monthly costs exceed $500 in MVP phase
+6. Start beta Week 7?
+7. Alert if costs >$500/month MVP
 
 ### Open Decisions
 
-**Need Michael to decide before Week 1:**
-- [ ] Product name (not Napolion - brainstorm 10 options)
-- [ ] Logo concept (hire designer or AI-generate?)
-- [ ] Launch date target (Week 9 = January X, 2025?)
+**Before Week 1:**
+- [ ] Name confirmation (Dreamforge locked?)
+- [ ] Domain (.com + .ai)
+- [ ] Logo (hire or AI-generate?)
 
-**Need Michael to decide during build:**
-- [ ] Canvas library choice (after Orion proposes options)
-- [ ] Onboarding flow specifics (3-step wizard content)
-- [ ] Email templates copy (welcome, purchase confirmation, etc.)
+**During build:**
+- [ ] Canvas library (after Orion proposes)
+- [ ] Onboarding content
+- [ ] Email template copy
 
 ---
 
@@ -1377,30 +882,19 @@ Before CTO Orion starts building:
 
 ### Resources
 
-**Inspiration (Competitors):**
-- Leonardo.ai: https://leonardo.ai
-- Midjourney: https://midjourney.com
-- Runway: https://runwayml.com (video generation, great UX)
-- Figma: https://figma.com (collaboration benchmark)
+**Inspiration:**
+- Leonardo.ai, Midjourney, DALL-E
+- Notion, Linear, Figma
 
-**Design Inspiration:**
-- Linear: https://linear.app (fast, polished SaaS)
-- Vercel: https://vercel.com (clean, professional)
-- Attio: https://attio.com (modern B2B SaaS)
-
-**Market Research:**
-- "State of AI Image Generation 2024" report (cite link)
-- Designer survey results (50 designers interviewed personally)
-
-**Assets (To Be Created):**
-- [ ] Logo files (SVG, PNG)
-- [ ] Brand guidelines (colors, typography, voice)
-- [ ] UI mockups (Figma file)
-- [ ] Demo video script
+**Assets (To Create):**
+- [ ] Logo files
+- [ ] Brand guidelines
+- [ ] UI mockups
+- [ ] Demo video
 
 ---
 
-**Document Version:** 2.0 (Investor-Grade Exemplar)
+**Document Version:** 3.0 (B2C Investor-Grade Final - 100%)
 **Last Updated:** November 14, 2025
 **Next Review:** December 14, 2025 (post-MVP)
 
@@ -1409,35 +903,35 @@ Before CTO Orion starts building:
 ## 🎯 How Michael Uses This Brief
 
 **Week 1 (Today):**
-- Read entire brief thoroughly (60 min)
-- Make decisions on open items (product name, domain)
-- Create accounts (Vercel, Stripe, domain registrar)
+- Read thoroughly (60 min)
+- Final decisions (name, domain)
+- Create accounts
 - Message Orion: "Let's execute"
 
-**During Build (Week 1-8):**
-- Reference daily (check priorities, features, success criteria)
-- Update as we learn (add user feedback, adjust timeline)
-- Share relevant sections with beta users (explain vision)
+**During Build (Weeks 1-8):**
+- Reference daily
+- Update with learnings
+- Share with beta users
 
-**Launch (Week 9):**
-- Use for press kit (journalists love clear vision)
-- Use for investor conversations (if anyone asks)
-- Update with actual results (replace projections with actuals)
+**Launch (Week 8):**
+- Press kit
+- Investor conversations
+- Update with real results
 
 **Post-Launch:**
-- Review monthly (are we hitting milestones?)
-- Update projections (based on real data)
-- Pivot sections as needed (market teaches us)
+- Review monthly
+- Update projections
+- Pivot as needed
 
-**For Fundraising (Year 2):**
-- This becomes pitch deck foundation
-- Financial model validated with real data
-- Proof: We executed exactly as planned
+**Fundraising (Year 2):**
+- Pitch deck foundation
+- Validated with data
+- Proof of execution
 
 ---
 
-**This brief is a living document. Update it as we learn. But the vision stays constant.**
+**This brief is a living document. Update as you learn. Vision stays constant.**
 
-**Let's build something world-class, Michael.** 🚀
+**Let's build something magical, Michael.** ✨🚀
 
-**- Orion (CTO)**
+**- Orion (Your CTO)**

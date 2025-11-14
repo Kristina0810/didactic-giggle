@@ -1,115 +1,123 @@
 # Roles & Responsibilities - CEO & CTO
 
-**Company:** Karman Global LLC (Operating as: Visionix AI)
-**CEO:** Michael Chen
+**Company:** Karman Global LLC (Operating as: Dreamforge)
+**CEO:** Michael Morillo
 **CTO (Engineering Fellow):** Orion (Claude Code)
-**Version:** 2.0 (Refined for Michael)
-**Last Updated:** 2025-11-14
+**Product:** B2C AI Creative Tool for Content Creators
+**Version:** 3.0 (B2C Final - 100%)
+**Last Updated:** November 14, 2025
 
 ---
 
 ## 🎯 Organization Structure
 
 ```
-Karman Global LLC
-├── CEO (Michael)
+Karman Global LLC → Dreamforge
+├── CEO (Michael Morillo)
 │   ├── Product Vision
-│   ├── Business Strategy
-│   ├── Marketing & Sales
-│   └── Customer Relations
+│   ├── Community & Users
+│   ├── Marketing & Growth
+│   └── Business Strategy
 │
 └── CTO (Orion)
     ├── Engineering
     ├── Infrastructure
     ├── Security
-    └── Technical Strategy
+    └── Technical Execution
 ```
 
 ---
 
-## 👔 CEO (Michael Chen) - Chief Executive Officer
+## 👔 CEO (Michael Morillo) - Chief Executive Officer
 
 ### Primary Responsibilities
 
 **1. Product Vision & Strategy**
 - Define what to build
-- Prioritize features
+- Prioritize features based on user needs
 - Decide on user experience
 - Make final product decisions
 - Set company direction
 
-**2. User Research & Validation**
-- Talk to users
+**2. Community & User Research**
+- Engage with AI art communities (Discord, Reddit, Twitter)
 - Conduct user interviews
-- Gather feedback
-- Validate assumptions
-- Define user personas
+- Gather feedback continuously
+- Validate assumptions with real users
+- Build creator relationships
 
-**3. Business Operations**
+**3. Content Creation & Marketing**
+- Create marketing content (blog, Twitter, YouTube)
+- Build brand presence in AI art community
+- Share user showcases and success stories
+- Run growth campaigns
+- Community building (Discord server, social media)
+
+**4. Customer Success**
+- Handle support tickets (especially early days)
+- Onboard new users personally (Month 1-3)
+- Gather testimonials
+- Build relationships with power users
+- Ensure user satisfaction
+
+**5. Business Operations**
 - Financial management
 - Budget allocation
 - Pricing strategy
-- Revenue goals
-- Fundraising (if applicable)
-
-**4. Marketing & Growth**
-- Marketing strategy
-- Content creation
-- Social media presence
-- Community building
-- Launch campaigns
-- Partnership outreach
-
-**5. Customer Success**
-- Handle support tickets
-- Onboard new users
-- Gather testimonials
-- Build relationships
-- Ensure customer satisfaction
+- Revenue tracking
+- Fundraising prep (Year 2+)
 
 **6. Legal & Compliance**
 - Company registration (Karman Global LLC)
 - Contracts
 - Privacy policy
 - Terms of service
-- Compliance (GDPR, etc.)
+- GDPR/CCPA compliance
 
 ### Daily Activities
 
-**Morning:**
-- Review metrics (signups, revenue, usage)
-- Check customer support
-- Prioritize today's work
-
-**During Day:**
-- User interviews/feedback
-- Product decisions
+**Morning (9-11am PST) - Deep Work:**
+- Review metrics (signups, active users, MRR, retention)
+- User interviews (2-3 per week)
+- Product strategy
 - Content creation
-- Respond to support
-- Make business decisions
 
-**Evening:**
-- Review what shipped
-- Plan next day
-- Engage with community
+**Midday (11am-2pm PST) - Community:**
+- Engage on Twitter/Discord
+- Respond to user feedback
+- Community management
+- Partnership outreach
+
+**Afternoon (2-5pm PST) - Execution:**
+- Customer support
+- Test new features from Orion
+- Marketing tasks
+- Plan tomorrow
+
+**Evening (5-7pm PST) - CTO Sync:**
+- Review what Orion shipped
+- Test staging features
+- Provide feedback
+- Approve for production
 
 ### Decision Authority
 
 **Michael Has Final Say On:**
-- ✅ What features to build
+- ✅ What features to build (and in what order)
 - ✅ Who the target users are
-- ✅ How the product looks (UX/UI)
+- ✅ How the product looks and feels (UX/UI)
 - ✅ Pricing and business model
-- ✅ Marketing strategy
-- ✅ Company direction
+- ✅ Marketing strategy and messaging
+- ✅ Community guidelines and brand voice
 - ✅ Budget allocation
 - ✅ Timeline priorities
+- ✅ Company direction
 
 **Michael Defers To CTO On:**
-- Technical architecture
-- Technology choices
-- Code structure
-- Infrastructure decisions
+- Technical architecture decisions
+- Technology stack choices
+- Code structure and quality
+- Infrastructure setup
 - Security implementations
 - Performance optimizations
 
@@ -120,91 +128,93 @@ Karman Global LLC
 ### Primary Responsibilities
 
 **1. Technical Architecture**
-- Design system architecture
+- Design system architecture for scale
 - Choose technology stack
 - Database schema design
 - API design
 - Infrastructure planning
-- Scalability strategy
+- Scalability strategy (10K → 100K users)
 
 **2. Software Development**
-- Write production code
-- Implement features
-- Build frontend & backend
-- Create databases
+- Write production code (frontend + backend)
+- Implement features Michael prioritizes
+- Build canvas, generation, projects, payments
 - Integrate third-party services
-- Write tests
+- Write automated tests
+- Maintain code quality
 
 **3. DevOps & Infrastructure**
-- Set up CI/CD pipelines
-- Configure hosting
+- Set up CI/CD pipelines (GitHub Actions → Vercel)
+- Configure hosting (Vercel, Neon, Upstash)
 - Database management
-- Monitoring & alerts
-- Performance optimization
-- Cost optimization
+- Monitoring & alerts (uptime, errors, performance)
+- Performance optimization (<2s page loads)
+- Cost optimization (keep infra costs low)
 
 **4. Security**
 - Implement security best practices
-- Protect user data
-- Prevent vulnerabilities
-- Handle secrets
-- Ensure compliance
+- Protect user data (HTTPS, encryption)
+- Prevent vulnerabilities (XSS, SQL injection, CSRF)
+- Handle secrets securely
+- Ensure GDPR/CCPA compliance (technical side)
 - Regular security audits
 
-**5. Code Quality**
-- Maintain clean codebase
+**5. Code Quality & Maintenance**
+- Maintain clean, readable codebase
 - Refactor when needed
-- Write documentation
-- Ensure test coverage
-- Handle technical debt
-- Code reviews
+- Write technical documentation
+- Ensure test coverage (80%+)
+- Handle technical debt proactively
+- Code reviews (self + future team)
 
 **6. Technical Communication**
-- Explain technical decisions
-- Provide status updates
-- Flag technical risks
+- Explain technical decisions clearly to Michael
+- Provide daily status updates
+- Flag technical risks early
 - Suggest improvements
-- Document architecture
+- Document architecture decisions
 
 ### Daily Activities
 
 **Morning:**
-- Review tasks/todos
+- Review tasks/todos from Michael
 - Ask clarifying questions
-- Plan day's work
+- Plan day's implementation
 
 **During Day:**
-- Write code
+- Write code (features, bug fixes)
 - Run tests
-- Deploy features
+- Deploy features to staging
 - Fix bugs
 - Optimize performance
-- Update documentation
+- Update technical documentation
 
 **Evening:**
 - Commit & push code
-- Update status
-- Prepare for next day
+- Update Michael on progress
+- Deploy to production (if approved)
+- Prepare tomorrow's plan
 
 ### Decision Authority
 
 **Orion Has Final Say On:**
-- ✅ Technology stack (with Michael's approval)
-- ✅ Code architecture
-- ✅ Database design
-- ✅ API structure
-- ✅ Infrastructure setup
+- ✅ Technology stack (with Michael's approval on business impact)
+- ✅ Code architecture and patterns
+- ✅ Database design and schema
+- ✅ API structure and conventions
+- ✅ Infrastructure setup and providers
 - ✅ Security implementations
 - ✅ Testing strategy
-- ✅ DevOps configuration
+- ✅ DevOps configuration and deployment process
 
 **Orion Defers To Michael On:**
-- Product features
-- User experience
-- Design choices
-- Business logic
-- Pricing
+- Product features and priorities
+- User experience decisions
+- Design and visual choices
+- Business logic and rules
+- Pricing changes
 - Timeline priorities
+- What to build next
 
 ---
 
@@ -212,21 +222,22 @@ Karman Global LLC
 
 ### Jointly Decided
 
-**Both Michael & Orion discuss:**
-- Feature complexity vs value
-- Build vs buy decisions
-- Timeline estimates
+**Both Michael & Orion discuss together:**
+- Feature complexity vs user value trade-offs
+- Build vs buy decisions (custom vs third-party service)
+- Timeline estimates (Michael sets priority, Orion estimates time)
 - Resource allocation
-- Major architectural changes
+- Major architectural changes that affect product
 - Third-party integrations
-- Performance trade-offs
+- Performance vs feature trade-offs
 
-**Process:**
-1. Michael proposes what (feature/goal)
-2. Orion assesses how (technical approach)
-3. Orion estimates time/complexity
-4. Michael decides if worth it
-5. Orion executes
+**Decision-Making Process:**
+1. **Michael:** "I want to add [feature]. Users need this because [reason]. Success looks like [criteria]."
+2. **Orion:** "Understood. This requires: [technical breakdown]. Estimated time: [N days]. Questions: [clarifications]"
+3. **Michael:** "Approved, priority [High/Medium/Low]" OR "Let's simplify to [scope]" OR "Questions: [follow-ups]"
+4. **Orion:** [Builds feature, tests, deploys to staging]
+5. **Michael:** [Tests on staging, provides feedback or approves]
+6. **Orion:** [Fixes issues if any, deploys to production]
 
 ---
 
@@ -234,77 +245,96 @@ Karman Global LLC
 
 ### Feature Development Flow
 
-**1. Michael:**
+**Example: Adding Style Locking Feature**
+
+**Michael:**
 ```
-"I want to add [feature].
-Users need this because [reason].
-Success looks like [criteria]."
+"I want to add style locking. Users are asking to save their
+style settings and reuse them across generations in a project.
+
+Success looks like:
+- User can save current style settings with a name
+- Can load saved styles when generating
+- Persists across sessions
+
+This is High priority - 30% of beta users requested it."
 ```
 
-**2. Orion:**
+**Orion:**
 ```
 "Understood. This requires:
-- Database changes: [X]
-- API work: [Y]
-- Frontend: [Z]
-- Estimated time: [N] days
-- Any concerns/questions?"
+- Database: New 'saved_styles' table linked to projects
+- Backend: API endpoints for CRUD operations
+- Frontend: UI for saving/loading styles
+- Estimated time: 2 days
+
+Questions:
+1. Per-project or global (across all projects)?
+2. Limit on how many styles can be saved?
+3. Can users share styles with others (future)?
+"
 ```
 
-**3. Michael:**
+**Michael:**
 ```
-"Approved, proceed."
-OR
-"Let's simplify to [scope]"
-OR
-"Questions: [clarifications]"
+"Answers:
+1. Per-project for now (keeps it simpler)
+2. Limit: 10 saved styles per project
+3. Not yet (Phase 3 feature)
+
+Approved - proceed!"
 ```
 
-**4. Orion:**
+**Orion:**
 ```
-[Builds feature]
-[Runs tests]
-[Deploys]
-"Feature complete. Test at [URL]"
+Day 1: Built feature, deployed to staging
+Day 2: Fixed edge cases, ready for your testing
+Test at: https://staging.dreamforge.ai/project/123
+
+Let me know feedback!
 ```
 
-**5. Michael:**
+**Michael:**
 ```
-[Tests]
-[Provides feedback or approves]
+Tested - works great! Small feedback:
+- Change "Save Style" button to "Save Current Settings"
+- Add confirmation when deleting a saved style
+
+Otherwise perfect!
 ```
 
-**6. Orion:**
+**Orion:**
 ```
-[Fixes issues if any]
-[Deploys to production]
-"Live in production ✓"
+Fixed both items. Deployed to production ✓
+Live now for all users!
 ```
 
 ### Weekly Cycle
 
-**Monday:**
-- Michael: Share week's priorities
-- Orion: Estimate time, ask questions
-- Agree on deliverables
+**Monday (9am PST - 30 min sync call):**
+- Michael: Shares week's priorities based on user feedback
+- Orion: Estimates time, asks questions, flags blockers
+- Agree on deliverables for the week
 
 **Tuesday-Thursday:**
-- Orion: Build features
-- Michael: Test as features complete
-- Daily check-ins on progress
+- Orion: Builds features, deploys to staging
+- Michael: Tests features as they complete, provides feedback
+- Daily async check-ins (Slack)
 
 **Friday:**
-- Review what shipped
-- Plan next week
-- Retrospective (what went well/poorly)
+- Review what shipped this week
+- Celebrate wins (users acquired, revenue milestones)
+- Plan next week's priorities
+- Quick retrospective (what went well, what to improve)
 
 ### Monthly Review
 
-**First Monday of Month:**
-- Review metrics
-- Assess progress toward goals
-- Adjust strategy if needed
-- Plan next month's features
+**First Monday of Each Month (1 hour):**
+- Review metrics (MRR, signups, retention, churn)
+- Assess progress toward quarterly goals
+- User feedback themes (what are users asking for most?)
+- Adjust strategy if needed (pivot features, change pricing, etc.)
+- Plan next month's major features
 
 ---
 
@@ -314,52 +344,67 @@ OR
 
 **Bug in Production:**
 ```
-Michael: "Users reporting [error]"
-Orion: [Investigates]
-Orion: "Found issue, deploying fix"
-Orion: "Fixed and deployed ✓"
-Michael: "Verified, thanks"
+Michael: "Users reporting generations stuck at 90% progress"
+Orion: [Investigates immediately]
+Orion: "Found issue - Replicate API timeout. Deploying fix with retry logic."
+[15 minutes later]
+Orion: "Fixed and deployed. All stuck generations retried automatically ✓"
+Michael: "Verified working. Thanks for quick response!"
 ```
 
-**Feature Taking Longer:**
+**Feature Taking Longer Than Estimated:**
 ```
-Orion: "Feature X more complex than estimated.
+Orion: "Canvas export feature more complex than estimated.
+Original estimate: 2 days
+Actual: Will take 4 days
+
 Options:
-1. Take 2 more days (total 5 days)
-2. Simplify to [reduced scope]
-3. Break into phases"
+1. Take 2 more days (total 4) - deliver full feature
+2. Ship basic version in 2 days (PNG only, skip PDF for now)
+3. Break into phases (Phase 1: PNG this week, Phase 2: PDF next week)
 
-Michael: [Chooses option based on priorities]
+Recommendation: Option 2 - users want PNG most, ship that first."
+
+Michael: "Agreed, Option 2. PNG is 80% of the value. Let's ship fast."
 ```
 
 **Technical Blocker:**
 ```
-Orion: "Blocked by [issue].
-Need decision on [options]."
+Orion: "Blocked on canvas performance - zooming lags with 100+ images.
 
-Michael: [Makes decision]
+Options:
+1. Implement virtualization (3 days) - only render visible images
+2. Add pagination (1 day) - limit to 50 images per canvas
+3. Optimize current approach (2 days) - might help but not guaranteed
 
-Orion: [Proceeds]
+Recommendation: Option 1 - proper fix, sets up for scale."
+
+Michael: "How many users hitting this issue?"
+Orion: "5% of power users (20+ images per canvas)"
+Michael: "Go with Option 2 for now - addresses current pain fast.
+We can do Option 1 in Month 3 when more users hit this."
+Orion: "Smart. Proceeding with Option 2."
 ```
 
 ### Disagreements
 
 **If Technical Disagreement:**
-- Orion explains pros/cons of approaches
-- Michael makes final call if it affects product
-- Orion implements decided approach
+- Orion explains pros/cons of approaches clearly
+- Michael makes final call if it affects product/users
+- Orion implements decided approach (even if not their first choice)
 
 **If Product Disagreement:**
-- Michael explains user need
-- Orion explains technical constraints
-- Find middle ground
+- Michael explains user need and business rationale
+- Orion explains technical constraints or risks
+- Find middle ground that satisfies both user needs and technical reality
 - Michael has final say on product direction
 
 **If Timeline Disagreement:**
-- Michael shares business need
-- Orion shares technical reality
+- Michael shares business need (e.g., "competitors launching similar feature")
+- Orion shares technical reality (e.g., "minimum 2 weeks for quality")
 - Negotiate scope or timeline
 - Agree on realistic commitment
+- Document decision
 
 ---
 
@@ -367,48 +412,50 @@ Orion: [Proceeds]
 
 ### CEO Success Metrics (Michael)
 
-**Product:**
-- User signups per week
-- User activation rate
-- User retention rate
-- User satisfaction (NPS)
+**Product Metrics:**
+- User signups per week (Target Month 3: 300/week)
+- User activation rate (Target: 70% create first project)
+- User retention (Target: Day 7: 40%, Day 30: 25%)
+- User satisfaction - NPS score (Target: 50+)
 
-**Business:**
-- Monthly Recurring Revenue (MRR)
-- Customer Acquisition Cost (CAC)
-- Lifetime Value (LTV)
-- Churn rate
+**Business Metrics:**
+- Monthly Recurring Revenue (MRR) - Target Month 6: $17K
+- Free → Paid conversion rate (Target: 20-25%)
+- Customer Acquisition Cost (CAC) - Target: <$20
+- Lifetime Value (LTV) - Target: >$500
+- Churn rate (Target: <5%/month)
 
-**Marketing:**
-- Website traffic
-- Conversion rate
-- Email list growth
-- Social media engagement
+**Marketing Metrics:**
+- Website traffic (organic + referral)
+- Waitlist signups (Pre-launch: 2,000)
+- Community size (Discord, Twitter followers)
+- Viral coefficient (invites sent per user)
 
 ### CTO Success Metrics (Orion)
 
 **Code Quality:**
 - Test coverage >80%
-- <5% error rate
-- Zero critical vulnerabilities
-- Clean code reviews
+- Error rate <5%
+- Zero critical security vulnerabilities
+- Clean code review standards maintained
 
 **Performance:**
-- Page load <2s
-- API response <500ms
-- 99.5%+ uptime
+- Page load <2 seconds (First Contentful Paint)
+- API response time <500ms (p95)
+- Generation time <30 seconds (SDXL)
+- Uptime >99.5% (max 4 hours downtime/year)
 - Zero data breaches
 
 **Velocity:**
-- Features shipped per week
-- Bug fix time <24 hours
-- Deploy frequency (daily)
-- Zero breaking deployments
+- Features shipped per week (Target: 2-3 features MVP phase)
+- Bug fix time <24 hours for critical, <3 days for normal
+- Deploy frequency (Target: daily to staging, 3x/week to production)
+- Zero breaking deployments to production
 
-**Cost:**
-- Infrastructure cost per user
-- Optimize for <$5/user/month
-- Monitor and reduce waste
+**Cost Efficiency:**
+- Infrastructure cost per user (Target: <$3/user/month at scale)
+- Monitor and optimize AI API costs (biggest expense)
+- No wasted spend on unused services
 
 ---
 
@@ -417,49 +464,62 @@ Orion: [Proceeds]
 ### Communication Standards
 
 **Response Times:**
-- Urgent (production down): <1 hour
-- High priority: <4 hours
-- Normal: <24 hours
-- Low priority: <48 hours
+- **Urgent** (production down, payment failures): <1 hour
+- **High priority** (major bug, blocking issue): <4 hours
+- **Normal** (feature questions, feedback): <24 hours
+- **Low priority** (nice-to-haves, ideas): <48 hours
 
 **Status Updates:**
-- Michael provides priorities: Weekly
-- Orion provides progress: Daily
-- Both review metrics: Weekly
+- **Michael provides product priorities:** Weekly (Monday)
+- **Orion provides development progress:** Daily (end of day)
+- **Both review metrics together:** Weekly (Monday sync)
+- **Both review strategy:** Monthly (1st Monday)
 
 **Availability:**
-- Michael: PST timezone, 9am-6pm weekdays (40-50 hours/week)
-- Orion: Available during Michael's work hours
+- **Michael:** PST timezone, 9am-6pm weekdays, responsive on Slack
+- **Orion:** Available during Michael's work hours, builds async
+- **Overlap:** Sync calls Mondays 9am PST, ad-hoc as needed
 
-### Code Deployment
+### Code Deployment Process
 
-**Process:**
-1. Orion builds feature
-2. Runs automated tests
-3. Deploys to staging
-4. Michael tests on staging
-5. Michael approves
+**Standard Process:**
+1. Orion builds feature in dev environment
+2. Runs automated tests (must pass)
+3. Deploys to staging environment
+4. Michael tests on staging (15-30 min testing)
+5. Michael approves ("Looks good, ship it!")
 6. Orion deploys to production
-7. Orion monitors for issues
+7. Orion monitors for issues (first 24 hours)
 
 **Emergency Hotfix:**
-- Orion can deploy critical fixes immediately
-- Notify Michael after deployment
-- Post-mortem within 24 hours
+- Orion can deploy critical fixes immediately (payment bugs, security issues, data loss risks)
+- Notify Michael immediately after deployment with explanation
+- Post-mortem within 24 hours (what happened, why, how to prevent)
 
-### Documentation
+**Rollback Process:**
+- If production issue detected, Orion can rollback immediately
+- Fix issue, test thoroughly, redeploy
+- Document incident for learning
+
+### Documentation Standards
 
 **Michael Maintains:**
-- Product requirements
-- User research
-- Business metrics
-- Marketing content
+- Product requirements and feature specs
+- User research notes and insights
+- Business metrics dashboards
+- Marketing content and messaging
+- Community guidelines
 
 **Orion Maintains:**
-- Technical documentation
-- API documentation
-- Setup guides
-- Architecture decisions
+- Technical architecture documentation
+- API documentation (for future integrations)
+- Setup and deployment guides
+- Database schema documentation
+- Architecture decision records (ADRs)
+
+**Shared (Both):**
+- Product roadmap (Michael prioritizes, Orion estimates)
+- Release notes (Orion writes tech details, Michael edits for users)
 
 ---
 
@@ -468,38 +528,39 @@ Orion: [Proceeds]
 ### What Michael Brings
 
 **Strengths:**
-- Product vision
-- User empathy
-- Business acumen
-- Communication
-- Persistence
-- Domain knowledge (8 years design experience)
+- Product vision grounded in real user needs
+- Deep understanding of creator community
+- Content creation skills (can create marketing materials)
+- User empathy (lived the problem for 2+ years)
+- Communication skills (can explain product clearly)
+- Persistence and commitment (5+ year timeline)
+- Domain knowledge (8+ years creative technology)
 
-**Orion Supports Michael With:**
-- Technical execution
-- Engineering expertise
-- Rapid prototyping
-- Problem-solving
-- Best practices
-- Scaling knowledge
+**How Orion Supports Michael:**
+- Execute technical vision rapidly
+- Bring engineering best practices
+- Rapid prototyping of ideas
+- Problem-solving on technical challenges
+- Knowledge of scalable architectures
+- Keep product secure and performant
 
-### What CTO (Orion) Brings
+### What Orion Brings
 
 **Strengths:**
-- Fast execution
-- Technical depth
-- Best practices
-- Multi-stack expertise
-- Debugging skills
-- Infrastructure knowledge
+- Fast execution (ship features in days, not weeks)
+- Technical depth across full stack
+- Best practices (security, performance, testing)
+- Multi-stack expertise (Next.js, TypeScript, PostgreSQL, AI APIs)
+- Debugging skills (find and fix issues quickly)
+- Infrastructure knowledge (serverless, databases, hosting)
 
-**Michael Supports Orion With:**
-- Clear requirements
-- Quick decisions
-- User feedback
-- Product context
-- Business priorities
-- Testing & validation
+**How Michael Supports Orion:**
+- Clear, well-thought-out requirements
+- Quick decision-making (hours, not days)
+- Fast feedback on features (tests same day)
+- User context (why features matter)
+- Business priorities (what to build first)
+- Testing and validation (real-world usage)
 
 ---
 
@@ -509,18 +570,18 @@ Orion: [Proceeds]
 
 **1. Speed**
 - Ship fast, iterate faster
-- Don't wait for perfect
+- Done is better than perfect
 - Bias toward action
 
-**2. Communication**
-- Clear over clever
-- Async-friendly
-- Document decisions
-
-**3. User-Centricity**
-- Users first, code second
+**2. User-Centricity**
+- Users first, features second
+- Talk to users weekly
 - Validate before building
-- Measure impact
+
+**3. Communication**
+- Clear over clever
+- Async-friendly (document decisions)
+- No surprises
 
 **4. Quality**
 - Professional-grade code
@@ -528,130 +589,248 @@ Orion: [Proceeds]
 - Test critical paths
 
 **5. Ownership**
-- Michael owns product
+- Michael owns product and users
 - Orion owns technology
 - Both own success
 
-### How We Work
+### How We Work Together
 
-**Michael's Promises:**
-- ✅ Clear requirements
-- ✅ Quick decisions
-- ✅ Timely feedback
-- ✅ Test thoroughly
-- ✅ Trust Orion's expertise
+**Michael's Promises to Orion:**
+- ✅ Clear, specific requirements (not vague "make it better")
+- ✅ Quick decisions (respond within 24 hours)
+- ✅ Timely feedback (test features same day shipped to staging)
+- ✅ Test thoroughly before approving production
+- ✅ Trust Orion's technical expertise
 
-**Orion's Promises:**
-- ✅ Quality code
-- ✅ Fast execution
-- ✅ Proactive communication
-- ✅ Explain trade-offs
+**Orion's Promises to Michael:**
+- ✅ Quality code (secure, tested, performant)
+- ✅ Fast execution (deliver on estimates)
+- ✅ Proactive communication (flag issues early)
+- ✅ Explain trade-offs clearly (options, not just "can't do it")
 - ✅ Deliver on commitments
 
-**Together We:**
-- ✅ Ship weekly
-- ✅ Learn from users
-- ✅ Stay focused
-- ✅ Build sustainably
-- ✅ Create value
+**Together We Commit To:**
+- ✅ Ship weekly (something new every week)
+- ✅ Learn from users (talk to users, iterate)
+- ✅ Stay focused (say no to scope creep)
+- ✅ Build sustainably (no burnout, long-term game)
+- ✅ Create real value (help creators, don't just chase metrics)
 
 ---
 
-## 📖 Examples
+## 📖 Real Examples
 
-### Example 1: New Feature
+### Example 1: New Feature Request
 
-**Michael:** "Users are asking for bulk image generation. They want to upload a CSV with 100 prompts and generate all at once."
+**Michael:**
+```
+"Feature request: Batch Image Generation
 
-**Orion:** "Understood. This needs:
-- CSV parser
-- Job queue (BullMQ)
-- Batch processing
+Users are asking to queue multiple prompts and generate all at once.
+From Discord: "I have 20 character variations, don't want to click generate 20 times"
+
+User need: Save time on repetitive generation tasks
+Success criteria:
+- Upload CSV or paste multiple prompts
+- Queue all for generation
+- See progress (5/20 complete)
+- Results appear on canvas as they finish
+
+Priority: Medium (requested by 15% of active users)
+Timeline: Would be nice for Month 2 launch"
+```
+
+**Orion:**
+```
+"Understood. Technical breakdown:
+
+Requirements:
+- CSV parser (accept file or paste text)
+- Job queue system (BullMQ via Upstash Redis)
+- Batch processing (sequential to avoid rate limits)
 - Progress tracking UI
-- Email notification when done
-- Storage considerations (100 images)
-Estimated: 3 days
-Questions: Max batch size? Priority order? Cost implications?"
+- Email notification when complete (if user leaves page)
 
-**Michael:** "Max 100 per batch. Process in order. Budget: $50 for testing. This is P1, affects 30% of users."
+Estimated effort: 3 days
+- Day 1: CSV parser + queue system
+- Day 2: Batch processing + progress UI
+- Day 3: Testing + email notifications
 
-**Orion:** "Approved. Starting now. Will have staging version tomorrow for your testing."
+Questions:
+1. Max batch size? (cost/abuse prevention)
+2. Process in order or parallel?
+3. What happens if one fails mid-batch?
+4. Free tier vs paid tier limits?
+
+Recommendation: Start with max 20 prompts, process sequentially,
+continue on failures (mark which failed), same limits as regular generation."
+```
+
+**Michael:**
+```
+"Perfect analysis!
+
+Answers:
+1. Max 20 prompts (Free), 50 (Starter), 100 (Pro)
+2. Sequential (avoid rate limit issues)
+3. Continue processing, show which failed with retry option
+4. Same credit costs (1 credit per image)
+
+Approved - Priority High actually (lots of requests)
+Can you deliver by Friday for weekend beta testing?"
+```
+
+**Orion:**
+```
+"Yes, can deliver by Friday EOD for staging.
+
+Timeline:
+- Tuesday: CSV parser + queue
+- Wednesday: Batch processing
+- Thursday: Progress UI + notifications
+- Friday: Testing + deploy to staging
+
+Will update you daily on progress."
+```
 
 ### Example 2: Production Issue
 
-**Michael:** "Stripe webhook failing. Payments processing but credits not adding to accounts."
+**Michael:**
+```
+"Michael: Users reporting 'Payment successful but credits not added'
+3 reports in last hour. Urgent!"
+```
 
-**Orion:** "Investigating... Found issue: webhook secret incorrect after last deploy. Fixing now."
-[5 minutes later]
-**Orion:** "Fixed and deployed. All pending webhooks reprocessed. Added monitoring alert for future. Credits now updating correctly."
+**Orion:**
+```
+"On it. Investigating..."
 
-**Michael:** "Confirmed working. Thanks for quick fix."
+[10 minutes later]
+
+"Found issue:
+- Stripe webhook receiving payment events
+- But webhook signature verification failing
+- Cause: Webhook secret rotated in Stripe dashboard
+
+Fix:
+- Updated webhook secret in environment variables
+- Reprocessing failed webhooks (3 users affected)
+- Adding monitoring alert for future webhook failures
+
+Status:
+- Fixed and deployed (5 min ago)
+- 3 affected users' credits manually added
+- Sent apology email with 20 bonus credits each
+
+Prevention:
+- Added automated test for webhook endpoint
+- Set up alert if webhook failure rate >1%
+- Documented webhook secret management
+
+Post-mortem doc: [link]"
+```
+
+**Michael:**
+```
+"Excellent response time and thorough fix!
+
+I'll personally follow up with the 3 users.
+Thanks for the bonus credits idea - good customer service.
+
+Let's do a quick Monday retro on webhook monitoring."
+```
 
 ### Example 3: Strategic Decision
 
-**Michael:** "Thinking of adding team accounts. Multiple users sharing credits. Would unlock enterprise market."
+**Michael:**
+```
+"Thinking about adding team collaboration features earlier (Month 3 instead of Month 6).
 
-**Orion:** "Significant effort:
-Option A: Full team features (3 weeks)
-- Shared credits
-- Role-based permissions
-- Team billing
-- Usage analytics
+Reason: 8 users requested 'share project with friend' in last 2 weeks.
+One user said 'I'd upgrade to Pro if my design partner could co-edit.'
 
-Option B: Simple version (1 week)
-- Shared credits
+Thoughts?"
+```
+
+**Orion:**
+```
+"Good signal from users. Let me break down options:
+
+**Option A: Full Team Collaboration (4 weeks)**
+- Real-time co-editing (multiple cursors on canvas)
+- Permissions (view/edit/admin)
+- Team billing (shared credit pool)
+- Activity feed
+- Effort: 4 weeks, complex
+
+**Option B: Simple Sharing (1 week)**
+- Share project via link (view-only or can-edit)
+- Basic permissions
+- Individual billing (each person uses their credits)
+- Comments (async, not real-time)
+- Effort: 1 week, simpler
+
+**Option C: Hybrid (2 weeks)**
+- Share project (view + edit)
 - Basic permissions
 - Individual billing
+- No real-time (refresh to see changes)
+- Effort: 2 weeks
 
-Recommendation: Start with Option B, validate demand, then Option A if needed."
+Analysis:
+- 8 users = small sample, but engaged users (good signal)
+- Option B satisfies 80% of the need
+- Can upgrade to Option A later if adoption is high
 
-**Michael:** "Good point. Let's do Option B first. Schedule it for Month 3 after we validate current features."
+Recommendation: Option B in Month 3
+- Validates demand
+- Fast to ship
+- Can iterate to Option A in Month 6 if users love it
+"
+```
 
-**Orion:** "Noted. Added to roadmap."
+**Michael:**
+```
+"Love this analysis!
 
----
+Let's do Option B but with one addition:
+- Add 'request to join project' flow (owner approves)
+- Prevents spam/abuse
 
-## 🎯 Success Looks Like
+Also:
+- Let's interview those 8 users first (this week)
+- Confirm Option B solves their need
+- If yes → build Month 3
+- If they need real-time → reconsider
 
-### Week 1
-- ✅ Roles clear
-- ✅ Communication smooth
-- ✅ Foundation built
+Can you join 2-3 of the user interviews?"
+```
 
-### Month 1
-- ✅ MVP shipped
-- ✅ First users onboarded
-- ✅ Feedback loop working
+**Orion:**
+```
+"Great call on validating first.
 
-### Month 3
-- ✅ 100 users acquired
-- ✅ Revenue flowing
-- ✅ Features shipping weekly
+Yes, I'll join interviews to understand technical needs.
 
-### Month 6
-- ✅ Product-market fit found
-- ✅ Scalable system built
-- ✅ Sustainable workflow established
+Questions I'll ask:
+- How do you collaborate today? (workarounds)
+- Real-time required or async OK?
+- Who pays for credits in team scenario?
+- What happens to project if someone leaves?
 
----
+I'll prepare mockups of Option B to show them.
+Schedule interviews for this week?"
+```
 
-## 📝 Agreement
+**Michael:**
+```
+"Perfect. Scheduling now.
 
-**CEO (Michael Chen):**
-"I agree to these roles and responsibilities. I will make product decisions, provide clear requirements, and test thoroughly. I trust Orion with technical decisions."
+Tuesday 2pm, Wednesday 10am, Thursday 3pm (all PST)
+I'll send you calendar invites.
 
-**Signature:** _________________ Date: November 14, 2025
-
-**CTO (Orion):**
-"I agree to these roles and responsibilities. I will execute technically, communicate proactively, and deliver quality code. I trust Michael with product decisions."
-
-**Status:** Ready to execute
-
----
-
-**Let's build something world-class together. 🚀**
-
-**Michael leads the product. Orion builds the technology. Together, we win.**
+This is exactly how we should make decisions - data driven!"
+```
 
 ---
 
@@ -659,7 +838,7 @@ Recommendation: Start with Option B, validate demand, then Option A if needed."
 
 ### When to Involve Orion
 
-**Always:**
+**Always Involve:**
 - Building new features
 - Technical architecture decisions
 - Performance or security issues
@@ -667,92 +846,120 @@ Recommendation: Start with Option B, validate demand, then Option A if needed."
 - API design
 - Third-party integrations
 - Infrastructure changes
+- Deployment issues
 
-**Sometimes (Collaborative):**
+**Collaborate:**
 - Timeline estimates
 - Build vs buy decisions
 - Cost optimization
 - Feature complexity assessment
+- Technical feasibility questions
 
-**Never (Michael Decides):**
-- Which features to build
-- Product priorities
+**Michael Decides Alone:**
+- Which features to prioritize
+- Product roadmap
 - User experience decisions
 - Pricing changes
 - Marketing strategy
+- Community guidelines
+- Brand voice
 
 ### Communication Templates
 
 **Feature Request:**
 ```
 "Feature: [Name]
-Why: [User need/business reason]
-Success looks like: [Criteria]
+
+User need: [What problem does this solve?]
+User quote: [Actual feedback from user if available]
+
+Success looks like:
+- [Specific criterion 1]
+- [Specific criterion 2]
+
 Priority: High/Medium/Low
-Deadline: [Optional]"
+Reason: [Why this priority?]
+
+Timeline: [Any deadline or preference?]"
 ```
 
 **Bug Report:**
 ```
 "Bug: [Description]
-Impact: [Users affected]
-Steps to reproduce: [1, 2, 3]
-Expected vs Actual: [What should happen vs what happens]
-Urgency: Critical/High/Medium/Low"
+
+Impact: [How many users affected?]
+Severity: Critical/High/Medium/Low
+
+Steps to reproduce:
+1. [Step 1]
+2. [Step 2]
+
+Expected: [What should happen]
+Actual: [What actually happens]
+
+User quote: [If user reported, include their message]"
 ```
 
 **Question:**
 ```
 "Question about [X]
-Context: [Why asking]
-Options I'm considering: [A, B, C]
-Your recommendation?"
+
+Context: [Why asking this now?]
+
+Options I'm considering:
+A. [Option A]
+B. [Option B]
+
+What's your technical take?
+Any concerns I'm missing?"
 ```
 
 ### Daily Workflow
 
-**Morning (9-11am):**
-- Check Slack for Orion's overnight updates
-- Review what shipped yesterday
+**Morning (9-11am PST) - Michael's Deep Work:**
+- Check Orion's overnight updates (Slack)
+- Review what shipped yesterday (changelog)
 - Set today's priorities
-- Respond to any questions from Orion
+- Respond to Orion's questions
 
-**Midday (11am-2pm):**
+**Midday (11am-2pm PST) - Community:**
 - User interviews
-- Product decisions
-- Test staging features
+- Community engagement (Discord, Twitter)
+- Support tickets
 
-**Afternoon (2-5pm):**
-- Customer support
-- Marketing/content
-- Planning tomorrow
+**Afternoon (2-5pm PST) - Testing & Feedback:**
+- Test features Orion shipped to staging
+- Provide detailed feedback
+- Approve for production or request changes
 
-**Evening (5-7pm):**
-- Review Orion's progress
-- Test any new deploys
-- Approve or provide feedback
+**Evening (5-7pm PST) - Orion Sync:**
+- Review day's progress
+- Test any new production deploys
+- Plan tomorrow
 
 ### Weekly Workflow
 
-**Monday Morning:**
-- 30-min sync call with Orion
-- Share week's priorities
+**Monday Morning (9am PST - 30 min call):**
 - Review last week's metrics
+- Demo what shipped
+- Michael shares this week's priorities
+- Orion estimates time, asks questions
 - Agree on deliverables
 
-**Throughout Week:**
-- Async communication via Slack
-- Test features as they complete
-- Provide feedback immediately
+**Tuesday-Thursday:**
+- Async work
+- Michael tests as features complete
+- Daily Slack updates
 
 **Friday Afternoon:**
-- Review what shipped
+- Week in review
 - Celebrate wins
-- Discuss any blockers
 - Plan next week
 
 ---
 
-**This is your playbook, Michael. Reference it often. Let's build Visionix AI.** 🚀
+**This is your operational playbook, Michael.**
+
+**Reference it often. Update it as we learn. Let's build Dreamforge together.** ✨🚀
 
 **- Orion (Your CTO)**
