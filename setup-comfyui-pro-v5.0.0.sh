@@ -40,6 +40,15 @@ if [ -d "${WORKSPACE}/runpod-slim/ComfyUI" ]; then
     COMFYUI_DIR="${WORKSPACE}/runpod-slim/ComfyUI"
 fi
 
+# Detect Python command (python3 or python)
+if command -v python3 >/dev/null 2>&1; then
+    PYTHON_CMD="python3"
+elif command -v python >/dev/null 2>&1; then
+    PYTHON_CMD="python"
+else
+    PYTHON_CMD=""
+fi
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -86,28 +95,29 @@ command_exists() {
 check_prerequisites() {
     log_info "Checking prerequisites..."
 
-    if ! command_exists python; then
+    if [ -z "$PYTHON_CMD" ]; then
         log_error "Python not found. This script requires Python 3.10+"
+        log_error "Please install Python 3.10+ and try again."
         exit 1
     fi
 
     if ! command_exists git; then
-        log_error "Git not found. Installing git..."
+        log_warning "Git not found. Installing git..."
         apt-get update && apt-get install -y git
     fi
 
     if ! command_exists wget; then
-        log_error "wget not found. Installing wget..."
+        log_warning "wget not found. Installing wget..."
         apt-get update && apt-get install -y wget
     fi
 
-    local python_version=$(python --version 2>&1 | awk '{print $2}')
-    log_success "Python version: $python_version"
+    local python_version=$($PYTHON_CMD --version 2>&1 | awk '{print $2}')
+    log_success "Python: $PYTHON_CMD (version $python_version)"
 
-    if ! python -c "import torch" 2>/dev/null; then
+    if ! $PYTHON_CMD -c "import torch" 2>/dev/null; then
         log_warning "PyTorch not found. Ensure you're running on RunPod GPU template."
     else
-        local torch_version=$(python -c "import torch; print(torch.__version__)")
+        local torch_version=$($PYTHON_CMD -c "import torch; print(torch.__version__)")
         log_success "PyTorch version: $torch_version"
     fi
 }
@@ -150,7 +160,7 @@ install_comfyui_base() {
 
     if [ -f "requirements.txt" ]; then
         log_info "Installing requirements.txt..."
-        retry_command 3 python -m pip install -r requirements.txt
+        retry_command 3 $PYTHON_CMD -m pip install -r requirements.txt
         log_success "Base requirements installed"
     else
         log_warning "requirements.txt not found, skipping base installation"
@@ -181,7 +191,7 @@ install_custom_node() {
         if [ -f "${node_dir}/requirements.txt" ]; then
             log_info "Installing dependencies for $node_name..."
             cd "$node_dir"
-            if retry_command 3 python -m pip install -r requirements.txt; then
+            if retry_command 3 $PYTHON_CMD -m pip install -r requirements.txt; then
                 log_success "Dependencies installed for $node_name"
             else
                 log_warning "Failed to install dependencies for $node_name (non-fatal)"
@@ -192,7 +202,7 @@ install_custom_node() {
         if [ -f "${node_dir}/install.py" ]; then
             log_info "Running install.py for $node_name..."
             cd "$node_dir"
-            if python install.py; then
+            if $PYTHON_CMD install.py; then
                 log_success "Install script completed for $node_name"
             else
                 log_warning "Install script failed for $node_name (non-fatal)"
@@ -309,7 +319,7 @@ if [ -d "/workspace/ComfyUI" ] || [ -d "/workspace/runpod-slim/ComfyUI" ]; then
     fi
 
     # Start ComfyUI
-    nohup python main.py --listen 0.0.0.0 --port 8188 > /workspace/logs/comfyui.log 2>&1 &
+    nohup python3 main.py --listen 0.0.0.0 --port 8188 > /workspace/logs/comfyui.log 2>&1 &
     echo $! > /workspace/comfyui.pid
     echo "[$(date)] ComfyUI started (PID: $(cat /workspace/comfyui.pid))"
 fi
@@ -319,7 +329,7 @@ EOF
     log_success "Auto-start configured: $on_start_file"
 
     # Also add cron @reboot as fallback
-    local cron_entry="@reboot cd $COMFYUI_DIR && nohup python main.py --listen 0.0.0.0 --port 8188 > ${LOG_DIR}/comfyui.log 2>&1 &"
+    local cron_entry="@reboot cd $COMFYUI_DIR && nohup python3 main.py --listen 0.0.0.0 --port 8188 > ${LOG_DIR}/comfyui.log 2>&1 &"
 
     if ! crontab -l 2>/dev/null | grep -q "ComfyUI"; then
         (crontab -l 2>/dev/null; echo "$cron_entry") | crontab -
@@ -363,7 +373,7 @@ run_health_checks() {
     fi
 
     # Check 4: PyTorch availability
-    if python -c "import torch; print(torch.cuda.is_available())" 2>/dev/null | grep -q "True"; then
+    if $PYTHON_CMD -c "import torch; print(torch.cuda.is_available())" 2>/dev/null | grep -q "True"; then
         log_success "✓ PyTorch + CUDA available"
         checks_passed=$((checks_passed + 1))
     else
@@ -420,7 +430,7 @@ main() {
     log_success "ComfyUI setup completed successfully!"
     log_info "Next steps:"
     log_info "  1. Run: ./download-models-pro-v5.0.0.sh (download essential models)"
-    log_info "  2. Start ComfyUI manually: cd $COMFYUI_DIR && python main.py"
+    log_info "  2. Start ComfyUI manually: cd $COMFYUI_DIR && $PYTHON_CMD main.py"
     log_info "  3. Or restart pod (auto-start configured)"
     log_info ""
     log_info "Access ComfyUI at: http://localhost:8188"

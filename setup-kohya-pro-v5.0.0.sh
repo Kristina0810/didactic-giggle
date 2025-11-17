@@ -41,6 +41,15 @@ VENV_PATH="${KOHYA_DIR}/venv"
 PYTORCH_VERSION="2.1.2"
 CUDA_VERSION="cu118"  # CUDA 11.8 compatible
 
+# Detect Python command (python3 or python)
+if command -v python3 >/dev/null 2>&1; then
+    PYTHON_CMD="python3"
+elif command -v python >/dev/null 2>&1; then
+    PYTHON_CMD="python"
+else
+    PYTHON_CMD=""
+fi
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -87,23 +96,24 @@ command_exists() {
 check_prerequisites() {
     log_info "Checking prerequisites..."
 
-    if ! command_exists python; then
+    if [ -z "$PYTHON_CMD" ]; then
         log_error "Python not found. This script requires Python 3.10+"
+        log_error "Please install Python 3.10+ and try again."
         exit 1
     fi
 
     if ! command_exists git; then
-        log_error "Git not found. Installing git..."
+        log_warning "Git not found. Installing git..."
         apt-get update && apt-get install -y git
     fi
 
     if ! command_exists wget; then
-        log_error "wget not found. Installing wget..."
+        log_warning "wget not found. Installing wget..."
         apt-get update && apt-get install -y wget
     fi
 
-    local python_version=$(python --version 2>&1 | awk '{print $2}')
-    log_success "Python version: $python_version"
+    local python_version=$($PYTHON_CMD --version 2>&1 | awk '{print $2}')
+    log_success "Python: $PYTHON_CMD (version $python_version)"
 
     # Check for CUDA availability
     if command_exists nvidia-smi; then
@@ -167,7 +177,7 @@ setup_virtual_environment() {
     # Create venv if it doesn't exist
     if [ ! -d "$VENV_PATH" ]; then
         log_info "Creating virtual environment..."
-        python -m venv "$VENV_PATH"
+        $PYTHON_CMD -m venv "$VENV_PATH"
         log_success "Virtual environment created"
     else
         log_info "Virtual environment already exists (skipping creation)"
@@ -179,16 +189,16 @@ setup_virtual_environment() {
 
     # Upgrade pip
     log_info "Upgrading pip..."
-    python -m pip install --upgrade pip setuptools wheel
+    python3 -m pip install --upgrade pip setuptools wheel
 
     # Check if PyTorch is already installed with correct version
-    if python -c "import torch; print(torch.__version__)" 2>/dev/null | grep -q "^${PYTORCH_VERSION}"; then
+    if python3 -c "import torch; print(torch.__version__)" 2>/dev/null | grep -q "^${PYTORCH_VERSION}"; then
         log_success "PyTorch ${PYTORCH_VERSION} already installed (skipping)"
     else
         log_info "Installing PyTorch ${PYTORCH_VERSION} with CUDA ${CUDA_VERSION}..."
 
         # Install PyTorch 2.1.2 with CUDA 11.8
-        retry_command 3 python -m pip install \
+        retry_command 3 python3 -m pip install \
             torch==${PYTORCH_VERSION}+${CUDA_VERSION} \
             torchvision==0.16.2+${CUDA_VERSION} \
             torchaudio==${PYTORCH_VERSION}+${CUDA_VERSION} \
@@ -198,14 +208,14 @@ setup_virtual_environment() {
     fi
 
     # Verify PyTorch installation
-    local torch_version=$(python -c "import torch; print(torch.__version__)" 2>/dev/null || echo "NOT INSTALLED")
-    local cuda_available=$(python -c "import torch; print(torch.cuda.is_available())" 2>/dev/null || echo "False")
+    local torch_version=$(python3 -c "import torch; print(torch.__version__)" 2>/dev/null || echo "NOT INSTALLED")
+    local cuda_available=$(python3 -c "import torch; print(torch.cuda.is_available())" 2>/dev/null || echo "False")
 
     log_info "PyTorch version: $torch_version"
     log_info "CUDA available: $cuda_available"
 
     if [ "$cuda_available" = "True" ]; then
-        local cuda_version=$(python -c "import torch; print(torch.version.cuda)" 2>/dev/null)
+        local cuda_version=$(python3 -c "import torch; print(torch.version.cuda)" 2>/dev/null)
         log_success "CUDA version: $cuda_version"
     else
         log_warning "CUDA not available - training will be CPU-only (slow)"
@@ -226,7 +236,7 @@ install_kohya_dependencies() {
 
     # Install requirements with retry logic
     log_info "Installing requirements.txt (this may take several minutes)..."
-    if retry_command 3 python -m pip install -r requirements.txt; then
+    if retry_command 3 python3 -m pip install -r requirements.txt; then
         log_success "Requirements installed successfully"
     else
         log_error "Failed to install requirements"
@@ -235,7 +245,7 @@ install_kohya_dependencies() {
 
     # Install additional dependencies for stability
     log_info "Installing additional stability dependencies..."
-    retry_command 3 python -m pip install \
+    retry_command 3 python3 -m pip install \
         xformers==0.0.23.post1 \
         bitsandbytes==0.41.1 \
         lion-pytorch==0.1.2 \
@@ -414,7 +424,7 @@ if [ -d "/workspace/kohya_ss" ]; then
 
     # Activate venv and start GUI
     source /workspace/kohya_ss/venv/bin/activate
-    nohup python gui.py --listen 0.0.0.0 --server_port 7860 > /workspace/logs/kohya.log 2>&1 &
+    nohup python3 gui.py --listen 0.0.0.0 --server_port 7860 > /workspace/logs/kohya.log 2>&1 &
     echo $! > /workspace/kohya.pid
     echo "[$(date)] Kohya_ss started (PID: $(cat /workspace/kohya.pid))"
 fi
@@ -424,7 +434,7 @@ EOF
     log_success "Auto-start configured: $on_start_file"
 
     # Also add cron @reboot as fallback
-    local cron_entry="@reboot cd ${KOHYA_DIR} && source ${VENV_PATH}/bin/activate && nohup python gui.py --listen 0.0.0.0 --server_port 7860 > ${LOG_DIR}/kohya.log 2>&1 &"
+    local cron_entry="@reboot cd ${KOHYA_DIR} && source ${VENV_PATH}/bin/activate && nohup python3 gui.py --listen 0.0.0.0 --server_port 7860 > ${LOG_DIR}/kohya.log 2>&1 &"
 
     if ! crontab -l 2>/dev/null | grep -q "kohya"; then
         (crontab -l 2>/dev/null; echo "$cron_entry") | crontab -
@@ -444,10 +454,10 @@ create_activation_script() {
 if [ -d "/workspace/kohya_ss/venv" ]; then
     source /workspace/kohya_ss/venv/bin/activate
     echo "Kohya_ss virtual environment activated"
-    echo "PyTorch version: $(python -c 'import torch; print(torch.__version__)')"
-    echo "CUDA available: $(python -c 'import torch; print(torch.cuda.is_available())')"
+    echo "PyTorch version: $(python3 -c 'import torch; print(torch.__version__)')"
+    echo "CUDA available: $(python3 -c 'import torch; print(torch.cuda.is_available())')"
     echo ""
-    echo "To start Kohya GUI: cd /workspace/kohya_ss && python gui.py"
+    echo "To start Kohya GUI: cd /workspace/kohya_ss && python3 gui.py"
 else
     echo "Error: Kohya_ss virtual environment not found"
     exit 1
@@ -486,8 +496,8 @@ run_health_checks() {
 
     # Check 3: PyTorch installation
     source "${VENV_PATH}/bin/activate" 2>/dev/null || true
-    if python -c "import torch" 2>/dev/null; then
-        local torch_ver=$(python -c "import torch; print(torch.__version__)")
+    if python3 -c "import torch" 2>/dev/null; then
+        local torch_ver=$(python3 -c "import torch; print(torch.__version__)")
         log_success "✓ PyTorch installed: $torch_ver"
         checks_passed=$((checks_passed + 1))
     else
@@ -495,7 +505,7 @@ run_health_checks() {
     fi
 
     # Check 4: CUDA availability
-    if python -c "import torch; print(torch.cuda.is_available())" 2>/dev/null | grep -q "True"; then
+    if python3 -c "import torch; print(torch.cuda.is_available())" 2>/dev/null | grep -q "True"; then
         log_success "✓ CUDA available"
         checks_passed=$((checks_passed + 1))
     else
@@ -565,7 +575,7 @@ main() {
     log_success "Kohya_ss setup completed successfully!"
     log_info "Next steps:"
     log_info "  1. Prepare your character dataset (50-100 images)"
-    log_info "  2. Start Kohya GUI: cd ${KOHYA_DIR} && source venv/bin/activate && python gui.py"
+    log_info "  2. Start Kohya GUI: cd ${KOHYA_DIR} && source venv/bin/activate && python3 gui.py"
     log_info "  3. Or restart pod (auto-start configured)"
     log_info ""
     log_info "Access Kohya_ss at: http://localhost:7860"
