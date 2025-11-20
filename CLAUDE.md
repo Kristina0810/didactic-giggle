@@ -24,17 +24,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Latest Version: v6.0.0** (Production Final - Zero Compromise Standard)
 
-- `setup-comfyui-pro-v6.0.0.sh` - ComfyUI setup (632 lines, production-grade)
-- `download-models-pro-v6.0.0.sh` - Model downloads (502 lines, enhanced robustness)
-- `setup-kohya-pro-v5.0.0.sh` - Kohya_ss training setup
+- `setup-comfyui-pro-v6.0.0.sh` - ComfyUI setup (652 lines, production-grade)
+- `download-models-pro-v6.0.0.sh` - Model downloads (488 lines, enhanced robustness)
+- `setup-kohya-pro-v5.0.0.sh` - Kohya_ss training setup (590 lines, production-grade)
 
 **Legacy versions** (v4.0.0, v5.0.0) - Archived, do not use
+**Legacy files** - `A1.md` (old manual setup), `*-old.sh` scripts (archived)
 
 ### Documentation Categories
 
 **Student-Facing (Simplified Course Guides - ~700 lines total)**:
+- `00-RUNPOD-SETUP.md` - RunPod account setup and pod configuration
 - `00-QUICK-START.md` - Installation and first image (30 min goal)
 - `01-FIRST-CHARACTER.md` - LoRA training basics (2-3 hours)
+- `01-FIRST-PROJECT.md` - Complete first project walkthrough
 - `03-CONTENT-PIPELINE.md` - Batch generation workflow (30 min setup)
 - `04-INSTAGRAM-LAUNCH.md` - Business strategy and monetization (6-8 weeks)
 
@@ -44,18 +47,42 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `WEEK-9-EXECUTION-GUIDE.md` - Day-by-day platform setup instructions
 
 **Developer Reference**:
-- `ADVANCED-REFERENCE.md` - Deep technical reference (archived PLAYBOOK.md - 6,670 lines)
+- `README.md` - Main project overview and quick start
 - `README-v6.0.0.md` - v6.0.0 comprehensive documentation
+- `ADVANCED-REFERENCE.md` - Deep technical reference (archived PLAYBOOK.md - 6,670 lines)
 - `CHANGELOG.md` - Detailed version history and improvements
+- `TECH-STACK-RECOMMENDATION.md` - World-class tech stack for future SaaS platform
+- `TECH-ACRONYMS-REFERENCE.md` - Complete software development terminology reference
 
 **Collaboration Guides**:
-- `ROLES-AND-RESPONSIBILITIES-REFINED.md` - CEO/CTO division of labor
+- `ROLES-AND-RESPONSIBILITIES.md` - Original CEO/CTO collaboration guide
+- `ROLES-AND-RESPONSIBILITIES-REFINED.md` - CEO/CTO division of labor (latest)
 - `GIT-WORKFLOW-GUIDE.md` - Complete Git/GitHub workflows
+- `GIT-QUICK-REFERENCE.txt` - Essential git commands quick reference
 - `WORKING-WITH-CLAUDE-CODE.md` - Communication templates and protocols
 
 **Templates**:
 - `PROJECT-BRIEF-TEMPLATE.md` - Project brief structure
 - `PROJECT-BRIEF-EXEMPLAR.md` - Dreamforge B2C SaaS plan (future, 6-12 months)
+
+### Repository Statistics
+
+**Total Files**:
+- 23 Markdown documentation files (~700 pages combined)
+- 10 Shell scripts (3 production, 7 archived/legacy)
+- 1 Git configuration file (.gitignore)
+
+**Documentation Structure**:
+- Student-facing guides: 6 files (~150 pages)
+- Strategic/business docs: 3 files (~60 pages)
+- Developer reference: 6 files (~250 pages, including 190-page ADVANCED-REFERENCE)
+- Collaboration guides: 5 files (~100 pages)
+- Templates: 2 files (~40 pages)
+- Core guidance: 1 file (CLAUDE.md - this file)
+
+**Script Structure**:
+- Production scripts: 3 files (~1,730 lines total)
+- Legacy/archived: 7 files (kept for reference, not for use)
 
 ---
 
@@ -508,11 +535,34 @@ Legacy versions, archived. Do not use.
 
 ### Internal Documentation
 
+**Core Guides**:
+- Main README: `README.md`
+- This file: `CLAUDE.md`
+
+**Git & Collaboration**:
 - Complete Git workflows: `GIT-WORKFLOW-GUIDE.md`
+- Quick git reference: `GIT-QUICK-REFERENCE.txt`
 - CEO/CTO collaboration: `ROLES-AND-RESPONSIBILITIES-REFINED.md`
+- Working with Claude Code: `WORKING-WITH-CLAUDE-CODE.md`
+
+**Strategic & Business**:
 - Strategic plan: `STRATEGIC-ROADMAP.md`
-- Technical deep-dive: `ADVANCED-REFERENCE.md`
+- Platform decision: `PLATFORM-ANALYSIS.md`
+- Week 9 execution: `WEEK-9-EXECUTION-GUIDE.md`
+
+**Technical Reference**:
 - v6.0.0 documentation: `README-v6.0.0.md`
+- Technical deep-dive: `ADVANCED-REFERENCE.md`
+- Tech stack guide: `TECH-STACK-RECOMMENDATION.md`
+- Acronyms reference: `TECH-ACRONYMS-REFERENCE.md`
+- Version history: `CHANGELOG.md`
+
+**Student Materials**:
+- RunPod setup: `00-RUNPOD-SETUP.md`
+- Quick start: `00-QUICK-START.md`
+- First character: `01-FIRST-CHARACTER.md`
+- Content pipeline: `03-CONTENT-PIPELINE.md`
+- Instagram launch: `04-INSTAGRAM-LAUNCH.md`
 
 ---
 
